@@ -1,0 +1,21 @@
+{
+  "name": "pw-soap-notes",
+  "version": "1.0.0",
+  "description": "Peak Wellness Sports Chiropractic - SOAP note generator. Dictate a visit, get a formatted SOAP note filed as a Google Doc in the patient's Drive folder.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.121.0",
+    "cookie-parser": "1.4.7",
+    "express": "4.22.2",
+    "google-auth-library": "9.15.1",
+    "zod": "3.25.76"
+  }
+}
