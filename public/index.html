@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Peak Wellness SOAP Notes</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- Sign in ------------------------------------------------------------- -->
+<section id="screen-login" class="screen center">
+  <div class="card narrow">
+    <h1 class="brand">Peak Wellness</h1>
+    <p class="brand-sub">Sports Chiropractic &middot; SOAP Notes</p>
+    <p class="muted">Sign in with your practice Google account.</p>
+    <div id="google-button"></div>
+    <p id="login-error" class="error hidden"></p>
+  </div>
+</section>
+
+<!-- App ------------------------------------------------------------------ -->
+<div id="app" class="hidden">
+  <header class="topbar">
+    <div>
+      <strong>Peak Wellness</strong> <span class="muted">SOAP Notes</span>
+    </div>
+    <div class="topbar-right">
+      <span id="who" class="muted"></span>
+      <button id="signout" class="link">Sign out</button>
+    </div>
+  </header>
+
+  <div id="drive-warning" class="banner hidden"></div>
+
+  <main>
+    <!-- Step 1: patient + visit -->
+    <section id="step-visit" class="card">
+      <h2><span class="step">1</span> Patient and visit</h2>
+
+      <label for="patient">Patient</label>
+      <div class="row">
+        <select id="patient">
+          <option value="">Loading patients from Drive...</option>
+        </select>
+        <button id="new-patient-toggle" class="secondary" type="button">Add new</button>
+      </div>
+
+      <div id="new-patient-row" class="row hidden">
+        <input id="new-patient-name" type="text" placeholder="Michelle Boyd" autocomplete="off">
+        <button id="new-patient-create" class="secondary" type="button">Create folder</button>
+      </div>
+      <p class="hint">New patients get a folder named <code>Lastname, Firstname</code> inside Documentation.</p>
+
+      <div class="row">
+        <div class="field">
+          <label for="visit-date">Visit date</label>
+          <input id="visit-date" type="date">
+        </div>
+        <div class="field">
+          <label for="visit-time">Visit time</label>
+          <input id="visit-time" type="time">
+        </div>
+      </div>
+    </section>
+
+    <!-- Step 2: dictation -->
+    <section id="step-dictation" class="card">
+      <h2><span class="step">2</span> What happened at the visit</h2>
+      <p class="hint">
+        Talk or type the way you normally would. Messy is fine. Subjective complaints,
+        what you found, what you did, what the plan is.
+      </p>
+      <textarea id="dictation" rows="12" placeholder="Michelle back today, neck still bothering her but better, says 4 out of 10 now was 6 last time. Upper traps still tight bilaterally, levator on the right. Adjusted C T L, ten minutes manual therapy bilateral upper trap and levator, hot pack cervical, chin tucks 3x15 and bird dog 3x15. Continue 2x a week for 4 weeks..."></textarea>
+      <div class="row spread">
+        <span id="dictation-count" class="hint"></span>
+        <button id="analyze" class="primary">Check for missing info</button>
+      </div>
+    </section>
+
+    <!-- Step 3: gaps -->
+    <section id="step-gaps" class="card hidden">
+      <h2><span class="step">3</span> A few things the note needs</h2>
+      <p id="analysis-summary" class="hint"></p>
+      <div id="gaps"></div>
+      <div class="row spread">
+        <button id="back-to-dictation" class="link">Back to notes</button>
+        <button id="generate" class="primary">Write the note</button>
+      </div>
+    </section>
+
+    <!-- Step 4: review -->
+    <section id="step-review" class="card hidden">
+      <h2><span class="step">4</span> Review before it is filed</h2>
+      <div id="flags"></div>
+      <div id="preview" class="preview"></div>
+      <div class="row spread">
+        <button id="back-to-gaps" class="link">Back</button>
+        <div class="row">
+          <span id="filename" class="hint"></span>
+          <button id="save" class="primary">Save to Drive</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Step 5: done -->
+    <section id="step-done" class="card hidden">
+      <h2>Filed</h2>
+      <p id="done-message"></p>
+      <div class="row">
+        <a id="doc-link" class="primary button" target="_blank" rel="noopener">Open the note</a>
+        <button id="another" class="secondary">Next patient</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="busy" class="busy hidden"><div class="spinner"></div><span id="busy-text"></span></div>
+  <p id="error" class="error hidden"></p>
+</div>
+
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<script src="/app.js"></script>
+</body>
+</html>
