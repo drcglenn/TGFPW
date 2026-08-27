@@ -4,3 +4,6 @@ node_modules/
 *.log
 .DS_Store
 package-lock.json
+
+# Generated artifact. Rebuild with: python3 docs/build_setup_pdf.py
+Peak_Wellness_SOAP_Notes_Setup_Guide.pdf
