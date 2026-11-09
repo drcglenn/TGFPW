@@ -1,0 +1,294 @@
+<title>Inside the Strain</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap">
+<style>
+/* Layout: a dark screening-room stage up top, transport and chapters under it, then the scene's script as a two-column reading panel. */
+:root {
+  --bg: #f3f4f7; --surface: #ffffff; --fg: #141821; --muted: #5a6475; --line: #dde1e8;
+  --accent: #b9770e; --accent-soft: #fbefd9; --stage: #0a0d15;
+  --human: #12876c; --animal: #b5650a; --theory: #6a46c9;
+  --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --body: "Barlow", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0c0f16; --surface: #141925; --fg: #e9edf3; --muted: #9aa5b8; --line: #252d3c;
+  --accent: #f2b84b; --accent-soft: #2a2213; --human: #3fd0b0; --animal: #f2a33b; --theory: #b08cff; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0c0f16; --surface: #141925; --fg: #e9edf3; --muted: #9aa5b8; --line: #252d3c;
+  --accent: #f2b84b; --accent-soft: #2a2213; --human: #3fd0b0; --animal: #f2a33b; --theory: #b08cff; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--fg); font: 400 16px/1.55 var(--body); }
+.wrap { max-width: 1240px; margin: 0 auto; padding-block: 28px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 20px; }
+header { display: grid; gap: 4px }
+.eyebrow { font: 600 12px/1.2 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--accent) }
+h1 { font: 800 clamp(40px, 7vw, 68px)/0.95 var(--display); letter-spacing: .01em; margin: 0; text-transform: uppercase; text-wrap: balance }
+.lede { color: var(--muted); max-width: 70ch; margin: 4px 0 0 }
+.stage { position: relative; background: var(--stage); border-radius: 10px; overflow: hidden; aspect-ratio: 16 / 9; max-width: 100%; }
+.stage canvas { display: block; width: 100%; height: 100%; cursor: pointer }
+.bigplay { position: absolute; inset: 0; margin: auto; width: 84px; height: 84px; border-radius: 50%; border: 0; background: rgba(242,184,75,.95); color: #141821; display: grid; place-items: center; cursor: pointer; box-shadow: 0 6px 30px rgba(0,0,0,.45) }
+.bigplay svg { width: 34px; height: 34px; margin-left: 5px }
+.bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px }
+.btn { font: 600 14px var(--body); color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px }
+.btn:hover { border-color: var(--accent) }
+.btn:focus-visible, select:focus-visible, input:focus-visible, .chap:focus-visible, .tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.btn svg { width: 16px; height: 16px }
+.time { font: 500 13px var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; min-width: 11ch }
+.scrub { position: relative; flex: 1 1 260px; min-width: 0; height: 28px; display: flex; align-items: center }
+.scrub input { width: 100%; accent-color: var(--accent); margin: 0; position: relative; z-index: 1; background: transparent }
+.ticks { position: absolute; inset: 0; pointer-events: none }
+.ticks i { position: absolute; top: 4px; bottom: 4px; width: 1px; background: var(--line) }
+label.sel { display: inline-flex; align-items: center; gap: 6px; font: 500 13px var(--body); color: var(--muted) }
+select { font: 600 14px var(--body); color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 7px 8px }
+.chapters { display: grid; grid-template-columns: repeat(auto-fill, minmax(178px, 1fr)); gap: 8px }
+.chap { text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; cursor: pointer; color: var(--fg); display: grid; gap: 2px; font: inherit }
+.chap .n { font: 600 11px var(--mono); color: var(--muted); letter-spacing: .06em; display: flex; justify-content: space-between }
+.chap .t { font: 700 17px/1.1 var(--display); text-transform: uppercase; letter-spacing: .02em }
+.chap .w { font: 500 13px var(--body); color: var(--accent) }
+.chap[aria-current="true"] { border-color: var(--accent); background: var(--accent-soft) }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 22px clamp(16px, 3vw, 30px); display: grid; gap: 14px }
+.panel-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; align-items: baseline }
+.panel h2 { font: 800 30px/1 var(--display); text-transform: uppercase; margin: 0; letter-spacing: .01em }
+.panel h2 small { font: 500 16px var(--body); color: var(--accent); text-transform: none; margin-left: 8px; letter-spacing: 0 }
+.tabs { display: flex; gap: 4px; flex-wrap: wrap; border-bottom: 1px solid var(--line) }
+.tab { font: 600 14px var(--body); background: none; border: 0; border-bottom: 2px solid transparent; padding: 8px 10px; color: var(--muted); cursor: pointer; margin-bottom: -1px }
+.tab[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent) }
+.tab[disabled] { opacity: .4; cursor: default }
+.copy { max-width: 76ch; min-width: 0 }
+.copy p { margin: 0 0 12px }
+.copy ul { margin: 0 0 12px; padding-left: 20px }
+.copy li { margin: 0 0 6px }
+.copy li ul { margin-top: 6px }
+.copy strong { font-weight: 700 }
+.copy h3 { font: 700 15px var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 18px 0 8px }
+.tag { font: 700 11px var(--mono); letter-spacing: .04em; padding: 1px 7px; border-radius: 999px; border: 1px solid currentColor; white-space: nowrap; vertical-align: 1px }
+.tag.h { color: var(--human) } .tag.a { color: var(--animal) } .tag.t { color: var(--theory) }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 14px; color: var(--muted) }
+.foot { font-size: 14px; color: var(--muted); max-width: 76ch }
+.table-wrap { overflow-x: auto }
+table { border-collapse: collapse; width: 100%; min-width: 620px; font-size: 15px }
+th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top }
+th { font: 600 12px var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted) }
+@media (max-width: 560px) { .panel h2 small { display: block; margin: 6px 0 0 } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Peak Wellness Sports Chiropractic · Clinical education</div>
+    <h1>Inside the Strain</h1>
+    <p class="lede">An animated walk through a hamstring strain at the cellular level, from second 0 to month 6+, with the clinical tie-in for each phase. Built for athletic trainers and sports clinicians.</p>
+  </header>
+
+  <div class="stage" id="stage">
+    <canvas id="film" width="1600" height="900" aria-label="Animated film of muscle healing after a strain"></canvas>
+    <button class="bigplay" id="bigplay" aria-label="Play film"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4l15 8-15 8z"/></svg></button>
+  </div>
+
+  <div class="bar">
+    <button class="btn" id="play" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor" id="playicon"><path d="M6 4l15 8-15 8z"/></svg><span id="playlabel">Play</span></button>
+    <span class="time" id="time">0:00 / 0:00</span>
+    <div class="scrub"><div class="ticks" id="ticks"></div><input type="range" id="scrub" min="0" max="1000" step="0.01" value="0" aria-label="Seek"></div>
+    <label class="sel" for="caps">Captions
+      <select id="caps"><option value="sci">Scientific</option><option value="plain">Plain-language</option><option value="off">Off</option></select>
+    </label>
+    <label class="sel" for="speed">Speed
+      <select id="speed"><option value="0.5">0.5×</option><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select>
+    </label>
+    <button class="btn" id="fs" aria-label="Full screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+  </div>
+
+  <nav class="chapters" id="chapters" aria-label="Scenes"></nav>
+
+  <section class="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="ptitle">Scene</h2>
+      <div class="legend"><span><span class="tag h">HUMAN</span> human data</span><span><span class="tag a">ANIMAL</span> animal or lab only</span><span><span class="tag t">THEORY</span> proposed, untested</span></div>
+    </div>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="tab-n" aria-selected="true" data-k="n">Narration</button>
+      <button class="tab" role="tab" id="tab-p" aria-selected="false" data-k="p">Plain-language</button>
+      <button class="tab" role="tab" id="tab-c" aria-selected="false" data-k="c">Clinical tie-in</button>
+    </div>
+    <div class="copy" id="copy"></div>
+  </section>
+
+  <p class="foot">Most of the cellular timeline comes from rodent models. Human healing follows the same sequence but probably runs more slowly, especially in larger injuries (Edouard et al., Nature Reviews Disease Primers, 2023). Captions in the film are condensed; the full script is in the panel above.</p>
+</div>
+
+<script src="film-core.js"></script>
+<script src="film-scenes.js"></script>
+<script>
+const H_ = '<span class="tag h">HUMAN</span>', A_ = '<span class="tag a">ANIMAL</span>', T_ = '<span class="tag t">THEORY</span>';
+const SCRIPT = [
+{ n: `<p>Skeletal muscle is organized like a cable inside a cable inside a cable:</p><ul>
+<li><strong>Epimysium</strong> (deep fascia) wraps the whole muscle.</li>
+<li><strong>Perimysium</strong> wraps bundles of fibers (fascicles).</li>
+<li><strong>Endomysium</strong> wraps each individual fiber.</li>
+<li>The <strong>basal lamina</strong> (basement membrane) is the innermost layer, a microscopic film fused to each fiber's membrane.</li>
+<li><strong>Satellite cells</strong>, the muscle's resident stem cells, sit dormant between the basal lamina and the fiber membrane.</li>
+<li>Between fascial layers is a slippery, <strong>hyaluronan (HA)-rich loose connective tissue</strong>, produced in part by cells Carla Stecco's group named <strong>fasciacytes</strong>. It lets the layers glide over each other.</li></ul>
+<p>All of these layers are continuous with each other and with the tendon, and they pass force sideways between fibers. This is called myofascial force transmission.</p>
+<p>Inside each fiber, many nuclei sit along its edge. Each manages one stretch of the fiber: the <strong>myonuclear domain</strong>.</p>`,
+  p: `<p>Picture a thick electrical cable. The outer jacket is the fascia. Inside are bundles of wires, each bundle with its own sleeve, and each wire has its own thin coating. Tucked under that coating are "spare-parts" cells (satellite cells) waiting for an emergency. Between the sleeves is a slippery gel, like lubricant, so everything slides smoothly.</p>` },
+{ n: `<p>Strains usually fail near the <strong>myotendinous junction</strong> or the aponeurosis (the sheet-like tendon inside the muscle), most often during a forceful eccentric contraction. The fibers rupture, and the broken ends <strong>recoil and retract</strong>, leaving a <strong>gap</strong>. Capillaries in the gap tear and bleed (Boivin et al., American Journal of Sports Medicine, 2023; Edouard et al., 2023).</p>
+<p>Strains are often "shearing-type" injuries. In these, the basal lamina sleeves and the connective-tissue sheets can tear as well as the fibers. Because the guiding tunnels are damaged, regeneration is less orderly and more scar forms (Zissler et al., American Journal of Sports Medicine, 2017).</p>`,
+  p: `<p>The muscle is stretched hard while it's pulling, like a rubber band yanked while it's already tight. Some wires snap, the broken ends spring apart, and the tiny blood vessels in between break and bleed.</p>` },
+{ n: `<p>Three things happen in the first hours.</p><ul>
+<li><strong>Hematoma:</strong> blood fills the gap and clots into a fibrin mesh.</li>
+<li><strong>Calcium flood:</strong> calcium pours into torn fibers through the ruptured membrane and stretch-activated channels. It activates <strong>calpain</strong>, a protein-digesting enzyme, and reactive oxygen species add to the damage. Left unchecked, damage spreads along the fiber beyond the original tear. This is <strong>secondary injury</strong> (Kanzaki et al., Journal of Muscle Research and Cell Motility, 2022).</li>
+<li><strong>Contraction band:</strong> within hours, each damaged fiber forms a dense cap of hypercontracted filaments that <strong>reseals the membrane</strong> and stops necrosis from spreading further (Edouard et al., 2023). This happens automatically and does not depend on the athlete contracting the muscle voluntarily.</li>
+<li><strong>Hypoxia:</strong> torn vessels and swelling cut off oxygen to the area, which can kill more fibers.</li></ul>`,
+  p: `<p>Blood fills the hole and clots, like an internal scab. Inside the broken wires, calcium rushes in like water through a cracked dam and turns on "scissor" enzymes that start chopping the wire from the inside. Each wire then builds an emergency bulkhead, like a watertight door on a ship, so the flooding doesn't spread down the whole wire.</p>`,
+  c: `<h3>What limits secondary damage</h3><ul><li>Stop activity right away.</li><li>Avoid eccentric loading in the first days.</li><li>Use compression and elevation to control bleeding and swelling.</li></ul>
+<h3>The myth to correct</h3><p>Voluntary isometrics in the first hours do <strong>not</strong> "help build" the contraction band. Tension across a fresh tear can widen the gap. In rats, starting active mobilization immediately produced <strong>larger scars and frequent re-rupture</strong>; about 5 days of relative rest in rats let granulation tissue bridge the gap first (Wang et al., BioMed Research International, 2020) ${A_}</p>
+<p><strong>No proven treatment blocks the calcium cascade after injury in humans.</strong> Taking L-arginine before exercise shows promise as prevention only. Antioxidant supplements have not been shown to help (Kanzaki et al., 2022).</p>` },
+{ n: `<p>Damaged cells release alarm molecules (DAMPs) that call in immune cells:</p><ul>
+<li><strong>Neutrophils</strong> arrive within hours.</li>
+<li><strong>Pro-inflammatory M1 macrophages</strong> follow and dominate the first ~3 days. They engulf necrotic debris and release TNF, IL-1β, and IL-6, which also tell satellite cells to <strong>wake up and multiply</strong>.</li></ul>
+<p>Inflammation here is not only damage. It is the starting signal for regeneration (Edouard et al., 2023).</p>`,
+  p: `<p>An alarm goes off. First the "fire trucks" arrive (neutrophils), then the demolition crew (M1 macrophages), which eats up the broken pieces. While they clean up, they also shout "wake up!" to the spare-parts cells.</p>` },
+{ n: `<p>After eating dead cells (<strong>efferocytosis</strong>), macrophages reprogram into <strong>M2 "repair" macrophages</strong>. M2 cells release IL-10, IGF-1, and growth factors, which calm inflammation and drive satellite-cell differentiation and fusion (Edouard et al., 2023). M1 and M2 are best thought of as ends of a continuum.</p>
+<p>The switch is triggered by <strong>finishing the cleanup</strong>, not by inflammation simply fading away. Things that block or delay it:</p><ul><li>Removing macrophages</li><li>Faulty efferocytosis</li><li><strong>Repeated re-injury</strong>, which keeps restarting M1 activity and pushes toward chronic inflammation and fibrosis</li></ul>`,
+  p: `<p>Once the demolition crew finishes eating the rubble, they literally change uniforms and become the construction crew. Cleaning up faster means rebuilding starts sooner. Re-injuring the muscle is like dumping new rubble on the site, so the crew has to start demolition all over again.</p>`,
+  c: `<h3>Pain medication</h3><ul>
+<li><strong>NSAIDs</strong> (ibuprofen, naproxen, ketorolac) block COX enzymes in the injured tissue, which reduces local prostaglandins. Some of these prostaglandins are signals satellite cells use.<ul>
+<li>A meta-analysis of 41 studies found that <strong>short-term</strong> NSAID use gave small benefits in strength loss, soreness, and CK in humans.</li>
+<li>No human study followed outcomes beyond 14 days. In animals, effects turned <strong>negative with longer courses or at later time points</strong> (Morelli et al., American Journal of Sports Medicine, 2018).</li>
+<li>In mice, ketorolac given 47 hours after injury impaired regeneration even though the macrophage switch itself was not affected (Bryant et al., PLoS One, 2016) ${A_}</li></ul></li>
+<li><strong>The evidence conflicts.</strong> In a human electrical-stimulation injury model, ibuprofen 1,200 mg/day for 2 weeks before and 4 weeks after injury <strong>increased</strong> satellite-cell activation and sped up remodeling at 30 days (Mackey et al., FASEB Journal, 2016) ${H_}. Overall, more of the cellular evidence points to harm than to benefit, but it is not consistent (Mackey et al., Scandinavian Journal of Medicine &amp; Science in Sports, 2012).</li>
+<li><strong>Acetaminophen</strong> works mainly in the central nervous system and has little effect on local prostaglandins. It did not impair regeneration in mice (Jomard et al., Scientific Reports, 2025) ${A_}</li></ul>
+<h3>Practical position</h3><ul><li>Prefer acetaminophen for pain.</li><li>If an NSAID is used, keep the course short.</li><li>Avoid regular NSAID use over several weeks during regeneration.</li><li>Remember NSAID GI, kidney, and bleeding risks.</li></ul>` },
+{ n: `<p>New capillaries sprout from intact vessels at the edges and <strong>grow into the clot and granulation tissue within the gap</strong>. They are visible by about <strong>day 3</strong>, driven by VEGF released by macrophages (Edouard et al., 2023).</p>
+<p>Oxygen delivery is <strong>rate-limiting</strong>: regeneration can only move as fast as the supply lines advance. Too little oxygen stalls repair. The goal is to restore blood flow, not to flood the tissue with oxygen.</p>`,
+  p: `<p>A construction site needs roads for delivery trucks. New tiny blood vessels are built into the hole to bring oxygen and building materials. Construction can only go as fast as the roads reach it.</p>`,
+  c: `<ul><li>Support blood flow with <strong>pain-guided early movement</strong>, swelling control, and nicotine avoidance.</li>
+<li><strong>Shockwave (ESWT):</strong><ul><li>In rats, a single session increased satellite-cell recruitment, proliferation, and differentiation. Treated muscle reached at day 4 the regeneration level untreated muscle reached at day 7 (Zissler et al., 2017) ${A_}</li><li>Reviews describe VEGF- and eNOS-driven vessel growth (Gao &amp; Zhao, Journal of International Medical Research, 2026).</li><li>Controlled human trials in acute strains are lacking.</li></ul></li>
+<li><strong>Hyperbaric oxygen:</strong> improved oxygenation and regeneration in rat contusions ${A_}. Human data are lacking, and it is not standard care.</li></ul>` },
+{ n: `<ul><li>Fibrin and fibronectin from the clot cross-link into <strong>granulation tissue</strong>, a primary extracellular matrix. It anchors fibroblasts and gives early, weak tensile strength.</li>
+<li>Fibroblasts then lay down <strong>tenascin-C and fibronectin</strong>, followed by <strong>type III collagen</strong>. <strong>Type I collagen</strong>, which provides most of the tensile strength, comes later (Pieters et al., Sports Medicine, 2021).</li>
+<li>The scar <strong>fills the gap from stump to stump</strong> as a solid 3D plug. Its fibers start out disorganized and gradually line up along the direction of pull.</li></ul>`,
+  p: `<p>The clot turns into a soft, temporary filler, like packing a pothole. First there's sticky scaffolding (fibrin). Builder cells (fibroblasts) climb it and lay down thin thread (type III collagen). Later they swap the thread for rope (type I collagen). Tiny new blood vessels make it look red and grainy, which is where the name "granulation" comes from. In the first week it's like wet cement: it holds, but it tears easily.</p>` },
+{ n: `<ul><li>Activated satellite cells switch on <strong>MyoD/Myf5</strong> and multiply as <strong>myoblasts</strong> inside the empty basal-lamina tunnels.</li>
+<li>They then switch on <strong>myogenin</strong> and <strong>fuse</strong> into <strong>multinucleated myotubes</strong>.</li>
+<li>Fusion is necessary because each nucleus can only support a limited length of fiber (the myonuclear domain). A long fiber therefore needs many nuclei.</li>
+<li>Myotubes either become new fibers or fuse onto the surviving stumps.</li>
+<li>Some satellite cells <strong>self-renew</strong>, restocking the reserve for future injuries (Edouard et al., 2023; Tsai et al., American Journal of Sports Medicine, 2021).</li></ul>`,
+  p: `<p>The spare-parts cells wake up, copy themselves, and then merge together into one long cell. A muscle cell is so long that one "foreman" (nucleus) can't run the whole thing, so many workers combine into one building with lots of foremen. A few spare-parts cells go back to sleep so they're ready for next time.</p>`,
+  c: `<h3>Electrical stimulation</h3><ul><li>In a rat strain model, low-frequency electrical stimulation (20 Hz, 30 minutes twice daily) <strong>started at day 5</strong> increased MyoD and myogenin and produced more mature, well-ordered fibers (Wang et al., 2020) ${A_}</li><li>The investigators chose day 5 on purpose, to start after the granulation tissue had bridged the gap.</li></ul>` },
+{ n: `<p>From about <strong>day 5</strong>, the regenerating fiber stumps send out multiple branches that <strong>pierce into both sides of the scar</strong> (Pieters et al., 2021). Each branch anchors to the scar collagen through new <strong>mini-myotendinous junctions</strong>.</p><ul>
+<li><strong>Day 14:</strong> the scar condenses, and the fibers close most of the gap.</li>
+<li><strong>Day 21:</strong> fibers from both sides interlace, with a thin seam of scar between them.</li></ul>
+<p>Regeneration peaks around 2 weeks and slows by about 4 weeks (Pieters et al., 2021). Nerves regrow along their old paths, and new neuromuscular junctions form.</p>`,
+  p: `<p>Imagine two tunnel crews digging into a hill from opposite sides. Each crew digs lots of small tunnels with their "fingers," and where they meet, the fingers interlock like clasped hands. The dirt left between the fingers is the permanent scar. The smaller the hill, the less dirt is left.</p>`,
+  c: `<h3>Tipping the balance toward muscle</h3><ul><li>Keep the gap small with early compression and protection.</li>
+<li>Use relative rest for about the first 3–5 days, then start <strong>progressive, pain-guided loading</strong>: isometric, then isotonic, then dynamic.</li>
+<li>Avoid <strong>prolonged immobilization</strong>, which leads to a larger, more disorganized, contracted scar (Wang et al., 2020).</li>
+<li>Too much TGF-β1 drives fibroblasts toward dense scar. Antifibrotic agents and PRP are experimental ${A_} (Tsai et al., 2021; Boivin et al., 2023).</li></ul>` },
+{ n: `<ul><li><strong>Muscle fibers</strong> grow thicker, move their nuclei to the edge, and line up their sarcomeres.</li>
+<li>Capillary networks are pruned back toward normal.</li>
+<li>Collagen shifts from type III to type I, thickens, cross-links, and aligns with the direction of pull.</li>
+<li>The scar <strong>contracts</strong>. This is not muscle contraction: fibroblasts become <strong>myofibroblasts</strong>, which contain smooth-muscle actin and slowly pull on the collagen like tiny winches. As cross-linking proceeds and water is lost, the scar becomes smaller and denser. A little contraction pulls the edges together. Too much, especially after prolonged immobilization, makes a short, stiff scar.</li>
+<li>Remodeling starts around day 7 and lasts <strong>months</strong>. Function is often not fully restored (Tsai et al., 2021). In human strains, MRI shows the tissue is still actively repairing at 6 months, well after return to sport.</li></ul>`,
+  p: `<p>The new muscle "wires" bulk up and get organized. The scar's thread gets swapped for rope, and the rope gets braided tight. The scar also shrinks, like shrink-wrap tightening. Even after an athlete feels fine, the inside is still finishing construction for months.</p>`,
+  c: `<h3>Speeding up the type III → type I shift</h3><ul><li><strong>Progressive mechanical loading</strong> drives collagen synthesis and alignment.</li><li>Ensure adequate protein and energy intake.</li><li>Avoid smoking and long courses of NSAIDs or corticosteroids.</li><li>Cross-linking runs on biological time. Loading improves <strong>quality and alignment</strong> more than it shortens the calendar.</li></ul>` },
+{ n: `<p>Carla Stecco's group at the University of Padua describes <strong>densification</strong>: after trauma, overuse, disuse, or inflammation, the HA-rich loose layer between fascial sheets becomes <strong>more viscous</strong>. Gliding is reduced, and free nerve endings may become irritated, without true fibrosis having to be present. Proposed contributors:</p><ul><li>HA chains aggregating</li><li>Local pH changes</li><li>Altered HA production by fasciacytes</li></ul>
+<p>This is proposed to be <strong>reversible</strong>, unlike collagen fibrosis.</p><p>Newer frameworks add to this:</p><ul>
+<li>A proposed <strong>calcium–hyaluronan feedback loop</strong>, in which mechanical load and shear regulate HA turnover and viscosity and inflammation drives HA accumulation (Kirkness et al., Frontiers in Physiology, 2026) ${T_}</li>
+<li>A 2026 review arguing that <strong>pathological fascial stiffening may impair muscle regeneration</strong> by limiting mobility and disrupting mechanotransduction, and that <strong>treating both muscle and fascia</strong> may improve outcomes (Amstel et al., Musculoskeletal Science &amp; Practice, 2026).</li>
+<li>Fascial progenitor cells may help drive scar formation in wound healing, according to recent mouse work (cited in Du et al., Surgical and Radiologic Anatomy, 2026) ${A_}</li></ul>
+<p><strong>How this fits the regeneration model:</strong> the classic model explains what happens <strong>inside</strong> the muscle (fibers, satellite cells, intramuscular scar). Stecco's model explains the <strong>gliding interfaces around and between</strong> muscles. It offers a credible explanation for stiffness and pain that persist after a strain has "healed" structurally. The two models complement each other.</p>`,
+  p: `<p>Between the sleeves of the muscle is a slippery gel. After an injury, or after not moving much, that gel can get thick and sticky, like honey left in the fridge. The layers stop sliding well, which can feel tight or sore even after the tear has healed. Moving, and possibly hands-on treatment, may help warm the "honey" back up so things glide again.</p>`,
+  c: `<h3>Evidence status</h3><ul><li>Myofascial release techniques are consistently associated with <strong>short-term improvements in pain and range of motion</strong>.</li><li>Long-term functional outcomes and direct structural change in fascia are <strong>inconsistent</strong>.</li><li>These techniques are best supported as <strong>adjuncts that help athletes move and engage in active rehab</strong>, not as stand-alone treatment (Gao &amp; Gao, Frontiers in Physiology, 2026).</li><li>Direct human evidence that manual therapy changes HA viscosity in living tissue is limited.</li></ul>
+<h3>Timing</h3><ul><li>Gentle manual work and movement <strong>around</strong> the injury fit the subacute and remodeling phases.</li><li>Avoid aggressive deep work <strong>on</strong> the tear in the first week, while the granulation tissue is still "wet cement."</li></ul>` },
+{ n: `<ul><li><strong>The scar is not muscle.</strong> It is stiffer, does not contract, and changes how force passes through the muscle.</li>
+<li><strong>The weak spot is not rebuilt.</strong> The highly folded architecture of the myotendinous junction and aponeurosis may never fully return.</li>
+<li><strong>Atrophy and fat infiltration</strong> develop. Muscle volume was still not recovered at 6 months in human strains.</li>
+<li><strong>Neural inhibition:</strong> the injured muscle is under-activated, especially during eccentric work at long muscle lengths.</li>
+<li><strong>Fascial gliding</strong> may be reduced (densification, Stecco model) ${T_}</li>
+<li><strong>Returning to sport before the tissue has matured</strong> contributes to the high re-injury rate (Pieters et al., 2021).</li></ul>`,
+  p: `<p>The patch works, but it's a patch, not the original. The brain also protects the area by "turning down" the muscle, so the muscle gets weaker unless it's trained back up.</p>` },
+{ n: `<div class="table-wrap"><table><thead><tr><th>Phase / time</th><th>Biology on screen</th><th>Athletic trainer action</th></tr></thead><tbody>
+<tr><td>0–48 h</td><td>Bleeding, calcium surge, contraction band, M1 cleanup</td><td>Stop activity, compress, elevate, protect. No eccentric loading. Acetaminophen preferred for pain.</td></tr>
+<tr><td>Days 2–5</td><td>Granulation tissue ("wet cement"), capillary ingrowth, M1→M2 switch</td><td>Pain-free isometrics: day 2 for mild strains, nearer day 5 for larger ones. Avoid both immobilization and aggressive loading.</td></tr>
+<tr><td>Days 5–21</td><td>Myotubes, fibers pierce the scar, type III collagen</td><td>Progressive isotonic, then dynamic loading. Consider E-stim ${A_} and ESWT ${A_}. Gentle fascial work around the site.</td></tr>
+<tr><td>Weeks 3–12</td><td>Type I collagen, fiber maturation, scar contraction</td><td>Lengthening and eccentric work at long muscle lengths. Restore fascial gliding. Use criteria-based return to sport.</td></tr>
+<tr><td>Months 3–6+</td><td>Ongoing remodeling, atrophy risk</td><td>Keep up eccentric strengthening (e.g., Nordic curls) after return to play.</td></tr></tbody></table></div>
+<h3>Closing narration</h3><p>Healing is a race between muscle regrowth and scar formation, playing out inside a fascial system that has to keep gliding. The athletic trainer's job is to time the stimulus to the biology: protect the wet cement, feed the supply lines, load the rebuilders, align the rope, and keep the layers sliding.</p>
+<p><strong>Healed is not the same as remodeled. Keep loading.</strong></p>`,
+  p: `<p>Healing is a race between new muscle and scar. The job is to match the rehab to what the tissue is doing: protect the wet cement, feed the supply lines, load the rebuilders, align the rope, and keep the layers sliding. Healed is not the same as remodeled, so keep loading.</p>` }
+];
+
+const cv = document.getElementById('film'), ctx = cv.getContext('2d');
+let T = 0, playing = false, speed = 1, capMode = 'sci', dirty = true, last = 0, curScene = -1, tab = 'n';
+const fmt = s => { s = Math.max(0, Math.floor(s)); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
+function sizeCanvas() {
+  const r = cv.getBoundingClientRect(); const dpr = Math.min(2, window.devicePixelRatio || 1);
+  const w = Math.max(320, Math.round(r.width * dpr)), h = Math.round(w * 9 / 16);
+  if (cv.width !== w) { cv.width = w; cv.height = h; dirty = true; }
+}
+function draw() {
+  ctx.setTransform(cv.width / W, 0, 0, cv.height / H, 0, 0);
+  ctx.clearRect(0, 0, W, H);
+  const L = renderFilm(ctx, T, capMode);
+  const si = SCENES.indexOf(L.sc); if (si !== curScene) { curScene = si; showScene(si); }
+  scrub.value = (T / TOTAL * 1000).toFixed(2); timeEl.textContent = fmt(T) + ' / ' + fmt(TOTAL);
+}
+function loop(ts) {
+  const dt = last ? Math.min(.1, (ts - last) / 1000) : 0; last = ts;
+  if (playing) { T += dt * speed; if (T >= TOTAL) { T = TOTAL - .001; setPlaying(false); } dirty = true; }
+  if (dirty) { draw(); dirty = false; }
+  requestAnimationFrame(loop);
+}
+const playBtn = document.getElementById('play'), big = document.getElementById('bigplay'), scrub = document.getElementById('scrub'), timeEl = document.getElementById('time');
+function setPlaying(p) {
+  playing = p; big.hidden = p;
+  document.getElementById('playlabel').textContent = p ? 'Pause' : 'Play';
+  playBtn.setAttribute('aria-label', p ? 'Pause' : 'Play');
+  document.getElementById('playicon').innerHTML = p ? '<path d="M6 4h4v16H6zM14 4h4v16h-4z"/>' : '<path d="M6 4l15 8-15 8z"/>';
+  if (p && T >= TOTAL - .01) T = 0;
+}
+playBtn.onclick = () => setPlaying(!playing); big.onclick = () => setPlaying(true); cv.onclick = () => setPlaying(!playing);
+scrub.oninput = () => { T = scrub.value / 1000 * TOTAL; dirty = true; };
+document.getElementById('caps').onchange = e => { capMode = e.target.value; dirty = true; };
+document.getElementById('speed').onchange = e => { speed = +e.target.value; };
+document.getElementById('fs').onclick = () => { const st = document.getElementById('stage'); try { const p = document.fullscreenElement ? document.exitFullscreen() : st.requestFullscreen(); if (p && p.catch) p.catch(() => {}); } catch (e) {} };
+document.addEventListener('keydown', e => {
+  if (e.target.closest('select,input,button')) { if (e.key !== ' ' || e.target.tagName !== 'BUTTON') return; }
+  if (e.key === ' ') { e.preventDefault(); setPlaying(!playing); }
+  if (e.key === 'ArrowRight') { T = Math.min(TOTAL - .01, T + 5); dirty = true; }
+  if (e.key === 'ArrowLeft') { T = Math.max(0, T - 5); dirty = true; }
+});
+const ticks = document.getElementById('ticks'), chaps = document.getElementById('chapters');
+SCENES.forEach((sc, i) => {
+  if (i) { const t = document.createElement('i'); t.style.left = (sc.start / TOTAL * 100) + '%'; ticks.appendChild(t); }
+  const b = document.createElement('button'); b.className = 'chap'; b.type = 'button';
+  b.innerHTML = `<span class="n"><span>${sc.num.replace('SCENE ', 'SCENE ')}</span><span>${fmt(sc.dur)}</span></span><span class="t">${sc.title}</span><span class="w">${sc.when}</span>`;
+  b.onclick = () => { T = sc.start + (i === 0 ? 0 : .01); dirty = true; setPlaying(true); };
+  chaps.appendChild(b);
+});
+function showScene(i) {
+  const sc = SCENES[i], s = SCRIPT[i];
+  document.getElementById('ptitle').innerHTML = `${sc.title}<small>${sc.when}</small>`;
+  [...chaps.children].forEach((c, k) => c.setAttribute('aria-current', k === i ? 'true' : 'false'));
+  const tc = document.getElementById('tab-c'); tc.disabled = !s.c;
+  if (tab === 'c' && !s.c) tab = 'n';
+  renderTab();
+}
+function renderTab() {
+  const s = SCRIPT[curScene];
+  document.querySelectorAll('.tab').forEach(b => b.setAttribute('aria-selected', b.dataset.k === tab ? 'true' : 'false'));
+  document.getElementById('copy').innerHTML = s[tab] || '';
+}
+document.querySelectorAll('.tab').forEach(b => b.onclick = () => { if (b.disabled) return; tab = b.dataset.k; renderTab(); });
+new ResizeObserver(sizeCanvas).observe(cv);
+sizeCanvas();
+T = 4.2; // poster frame: the title card
+requestAnimationFrame(loop);
+if (document.fonts && document.fonts.load) {
+  Promise.all(['700 40px "Barlow Condensed"', '800 40px "Barlow Condensed"', '500 20px "Barlow"', '600 20px "Barlow"', '600 16px "JetBrains Mono"', '700 16px "JetBrains Mono"'].map(f => document.fonts.load(f)))
+    .then(() => { dirty = true; }).catch(() => {});
+}
+window.FILM = { TOTAL, render: (c, t, mode) => { c.setTransform(c.canvas.width / W, 0, 0, c.canvas.height / H, 0, 0); renderFilm(c, t, mode); }, setT: t => { T = t; dirty = true; } };
+</script>
