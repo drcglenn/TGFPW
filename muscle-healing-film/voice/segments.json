@@ -1,0 +1,719 @@
+{
+ "shots": [
+  {
+   "d": 9,
+   "scene": "SCENE 00"
+  },
+  {
+   "d": 32,
+   "scene": "SCENE 00"
+  },
+  {
+   "d": 22,
+   "scene": "SCENE 01"
+  },
+  {
+   "d": 30,
+   "scene": "SCENE 02"
+  },
+  {
+   "d": 18.6,
+   "scene": "SCENE 02"
+  },
+  {
+   "d": 24,
+   "scene": "SCENE 03"
+  },
+  {
+   "d": 22,
+   "scene": "SCENE 04"
+  },
+  {
+   "d": 17,
+   "scene": "SCENE 04"
+  },
+  {
+   "d": 18.6,
+   "scene": "SCENE 04"
+  },
+  {
+   "d": 20,
+   "scene": "SCENE 05"
+  },
+  {
+   "d": 13,
+   "scene": "SCENE 05"
+  },
+  {
+   "d": 13.400000000000002,
+   "scene": "SCENE 05"
+  },
+  {
+   "d": 22,
+   "scene": "SCENE 06"
+  },
+  {
+   "d": 26,
+   "scene": "SCENE 07"
+  },
+  {
+   "d": 13.400000000000002,
+   "scene": "SCENE 07"
+  },
+  {
+   "d": 26,
+   "scene": "SCENE 08"
+  },
+  {
+   "d": 10,
+   "scene": "SCENE 08"
+  },
+  {
+   "d": 16,
+   "scene": "SCENE 08"
+  },
+  {
+   "d": 26,
+   "scene": "SCENE 09"
+  },
+  {
+   "d": 9,
+   "scene": "SCENE 09"
+  },
+  {
+   "d": 16,
+   "scene": "SCENE 09"
+  },
+  {
+   "d": 32,
+   "scene": "SCENE 10"
+  },
+  {
+   "d": 18.6,
+   "scene": "SCENE 10"
+  },
+  {
+   "d": 22,
+   "scene": "SCENE 11"
+  },
+  {
+   "d": 32,
+   "scene": "SCENE 12"
+  },
+  {
+   "d": 15,
+   "scene": "SCENE 12"
+  },
+  {
+   "d": 10,
+   "scene": "SCENE 12"
+  }
+ ],
+ "segs": [
+  {
+   "shot": 0,
+   "t": 0,
+   "text": "Inside the Strain. What happens inside a hamstring after a strain, from second zero to month six and beyond."
+  },
+  {
+   "shot": 0,
+   "t": 2.6,
+   "text": "Most of this cellular timeline comes from rodent models. Human healing follows the same sequence, but probably runs more slowly, especially in larger injuries."
+  },
+  {
+   "shot": 1,
+   "t": 0,
+   "text": "Skeletal muscle is built like a cable inside a cable inside a cable."
+  },
+  {
+   "shot": 1,
+   "t": 4.6,
+   "text": "The epimysium, the deep fascia, wraps the whole muscle."
+  },
+  {
+   "shot": 1,
+   "t": 9.4,
+   "text": "Perimysium wraps each bundle of fibers (fascicle). Endomysium wraps each individual fiber."
+  },
+  {
+   "shot": 1,
+   "t": 13.6,
+   "text": "Between fascial layers, a hyaluronan-rich loose connective tissue, made in part by fasciacytes, lets the layers glide."
+  },
+  {
+   "shot": 1,
+   "t": 19.4,
+   "text": "The basal lamina is fused to each fiber. Satellite cells, the muscle's stem cells, sit dormant just beneath it."
+  },
+  {
+   "shot": 1,
+   "t": 24.8,
+   "text": "Each nucleus along the fiber manages one stretch of it: the myonuclear domain."
+  },
+  {
+   "shot": 1,
+   "t": 28.6,
+   "text": "All layers are continuous with each other and the tendon, and pass force sideways: myofascial force transmission."
+  },
+  {
+   "shot": 2,
+   "t": 0,
+   "text": "Strains usually happen during a forceful eccentric contraction, like the late swing phase of sprinting."
+  },
+  {
+   "shot": 2,
+   "t": 4.4,
+   "text": "The hamstring is lengthening under load as the knee extends."
+  },
+  {
+   "shot": 2,
+   "t": 8.4,
+   "text": "Failure usually occurs near the myotendinous junction or the aponeurosis."
+  },
+  {
+   "shot": 2,
+   "t": 11.4,
+   "text": "The fibers rupture, and the broken ends recoil and retract, leaving a gap."
+  },
+  {
+   "shot": 2,
+   "t": 15.4,
+   "text": "In shearing-type strains the basal lamina sleeves tear too, so regeneration is less orderly and more scar forms."
+  },
+  {
+   "shot": 2,
+   "t": 18.8,
+   "text": "Capillaries in the gap tear and bleed."
+  },
+  {
+   "shot": 3,
+   "t": 0,
+   "text": "Hematoma: blood fills the gap and clots into a fibrin mesh."
+  },
+  {
+   "shot": 3,
+   "t": 4.6,
+   "text": "The fibrin net runs in every direction. It is a solid plug, not a hollow box."
+  },
+  {
+   "shot": 3,
+   "t": 8.4,
+   "text": "Calcium pours into torn fibers through the ruptured membrane and stretch-activated channels."
+  },
+  {
+   "shot": 3,
+   "t": 12.6,
+   "text": "Calcium activates calpain. With reactive oxygen species, damage spreads along the fiber: secondary injury."
+  },
+  {
+   "shot": 3,
+   "t": 18.4,
+   "text": "Within hours, a contraction band of hypercontracted filaments reseals the membrane and stops the spread."
+  },
+  {
+   "shot": 3,
+   "t": 21.6,
+   "text": "This happens automatically. It does not depend on the athlete contracting the muscle."
+  },
+  {
+   "shot": 3,
+   "t": 24.2,
+   "text": "Torn vessels and swelling cut off oxygen to the area, which can kill more fibers."
+  },
+  {
+   "shot": 4,
+   "t": 0,
+   "text": "Clinical tie-in. What limits secondary damage."
+  },
+  {
+   "shot": 4,
+   "t": 0.7,
+   "text": "Stop activity right away. Compress and elevate to control bleeding and swelling."
+  },
+  {
+   "shot": 4,
+   "t": 3.3,
+   "text": "Avoid eccentric loading in the first days."
+  },
+  {
+   "shot": 4,
+   "t": 5.9,
+   "text": "Myth to correct: voluntary isometrics in the first hours do not \"build\" the contraction band. Tension across a fresh tear can widen the gap."
+  },
+  {
+   "shot": 4,
+   "t": 8.5,
+   "text": "Immediate active mobilization in rats produced larger scars and frequent re-rupture. About 5 days of relative rest let granulation tissue bridge the gap first."
+  },
+  {
+   "shot": 4,
+   "t": 11.1,
+   "text": "No proven treatment blocks the calcium cascade after injury in humans. Pre-exercise L-arginine shows promise as prevention only. Antioxidant supplements have not helped."
+  },
+  {
+   "shot": 5,
+   "t": 0,
+   "text": "Damaged cells release alarm molecules (DAMPs) that call in immune cells."
+  },
+  {
+   "shot": 5,
+   "t": 4.2,
+   "text": "Neutrophils arrive within hours."
+  },
+  {
+   "shot": 5,
+   "t": 8.6,
+   "text": "Pro-inflammatory M1 macrophages follow and dominate the first ~3 days, engulfing necrotic debris."
+  },
+  {
+   "shot": 5,
+   "t": 14.2,
+   "text": "Behind each contraction band the dead segment is cleared, leaving an empty basal-lamina tube."
+  },
+  {
+   "shot": 5,
+   "t": 18.2,
+   "text": "TNF, IL-1β and IL-6 also tell satellite cells to wake up and multiply."
+  },
+  {
+   "shot": 5,
+   "t": 21.6,
+   "text": "Inflammation here is not only damage. It is the starting signal for regeneration."
+  },
+  {
+   "shot": 6,
+   "t": 0,
+   "text": "After eating dead cells (efferocytosis), macrophages reprogram into M2 \"repair\" macrophages."
+  },
+  {
+   "shot": 6,
+   "t": 5.4,
+   "text": "M2 cells release IL-10, IGF-1 and growth factors that calm inflammation and drive satellite-cell differentiation and fusion."
+  },
+  {
+   "shot": 6,
+   "t": 10.6,
+   "text": "M1 and M2 are ends of a continuum. Finishing the cleanup triggers the switch, not inflammation simply fading."
+  },
+  {
+   "shot": 6,
+   "t": 15.6,
+   "text": "Repeated re-injury restarts M1 activity and pushes toward chronic inflammation and fibrosis."
+  },
+  {
+   "shot": 7,
+   "t": 0,
+   "text": "NSAIDs block COX enzymes in the injured tissue, which lowers local prostaglandins."
+  },
+  {
+   "shot": 7,
+   "t": 4.8,
+   "text": "Some of those prostaglandins are signals satellite cells use."
+  },
+  {
+   "shot": 7,
+   "t": 8.6,
+   "text": "Acetaminophen works mainly in the central nervous system and has little effect on local prostaglandins."
+  },
+  {
+   "shot": 7,
+   "t": 12.8,
+   "text": "In mice it did not impair regeneration."
+  },
+  {
+   "shot": 8,
+   "t": 0,
+   "text": "Clinical tie-in. Pain medication during regeneration."
+  },
+  {
+   "shot": 8,
+   "t": 0.7,
+   "text": "Short-term NSAID use gave small benefits in strength loss, soreness and CK. No human study followed outcomes beyond 14 days."
+  },
+  {
+   "shot": 8,
+   "t": 3.3,
+   "text": "In animals, effects turned negative with longer courses or later timing. Ketorolac at 47 h impaired regeneration in mice, though the macrophage switch was unaffected."
+  },
+  {
+   "shot": 8,
+   "t": 5.9,
+   "text": "Conflicting: ibuprofen 1,200 mg/day (2 wk before, 4 wk after) increased satellite-cell activation and sped remodeling at 30 days in an e-stim injury model."
+  },
+  {
+   "shot": 8,
+   "t": 8.5,
+   "text": "Acetaminophen did not impair regeneration in mice."
+  },
+  {
+   "shot": 8,
+   "t": 11.1,
+   "text": "Position: prefer acetaminophen for pain. If an NSAID is used, keep it short. Avoid regular use over several weeks during regeneration. Mind GI, kidney and bleeding risk."
+  },
+  {
+   "shot": 9,
+   "t": 0,
+   "text": "New capillaries sprout from intact vessels at the edges and grow into the clot and granulation tissue."
+  },
+  {
+   "shot": 9,
+   "t": 5.4,
+   "text": "They are visible by about day 3, driven by VEGF released by macrophages."
+  },
+  {
+   "shot": 9,
+   "t": 10.8,
+   "text": "Oxygen delivery is rate-limiting. Regeneration moves only as fast as the supply lines advance."
+  },
+  {
+   "shot": 9,
+   "t": 15.8,
+   "text": "The goal is to restore blood flow, not to flood the tissue with oxygen."
+  },
+  {
+   "shot": 10,
+   "t": 0,
+   "text": "Shockwave in rats: one session increased satellite-cell recruitment, proliferation and differentiation."
+  },
+  {
+   "shot": 10,
+   "t": 6,
+   "text": "Treated muscle reached at day 4 what untreated muscle reached at day 7. Controlled human trials in acute strains are lacking."
+  },
+  {
+   "shot": 11,
+   "t": 0,
+   "text": "Clinical tie-in. Supporting the supply lines."
+  },
+  {
+   "shot": 11,
+   "t": 0.7,
+   "text": "Support blood flow with pain-guided early movement, swelling control and nicotine avoidance."
+  },
+  {
+   "shot": 11,
+   "t": 3.3,
+   "text": "Shockwave (ESWT): faster regeneration in rats. Reviews describe VEGF- and eNOS-driven vessel growth. Controlled human trials in acute strains are lacking."
+  },
+  {
+   "shot": 11,
+   "t": 5.9,
+   "text": "Hyperbaric oxygen improved oxygenation and regeneration in rat contusions. Human data are lacking, and it is not standard care."
+  },
+  {
+   "shot": 12,
+   "t": 0,
+   "text": "Fibrin and fibronectin from the clot cross-link into granulation tissue, a primary extracellular matrix."
+  },
+  {
+   "shot": 12,
+   "t": 5.4,
+   "text": "It anchors fibroblasts, which lay down tenascin-C and fibronectin, then type III collagen."
+  },
+  {
+   "shot": 12,
+   "t": 11,
+   "text": "New capillary loops make the tissue red and grainy, which is where \"granulation\" comes from."
+  },
+  {
+   "shot": 12,
+   "t": 15.4,
+   "text": "Type III fibers start out disorganized. Type I, which provides most tensile strength, comes later."
+  },
+  {
+   "shot": 12,
+   "t": 18.8,
+   "text": "The plug fills the gap stump to stump. In week one it holds, but tears easily."
+  },
+  {
+   "shot": 13,
+   "t": 0,
+   "text": "Activated satellite cells switch on MyoD and Myf5 and multiply as myoblasts."
+  },
+  {
+   "shot": 13,
+   "t": 6,
+   "text": "They multiply inside the empty basal-lamina tunnels."
+  },
+  {
+   "shot": 13,
+   "t": 10.2,
+   "text": "They switch on myogenin and fuse into a multinucleated myotube."
+  },
+  {
+   "shot": 13,
+   "t": 15.2,
+   "text": "Each nucleus can only support a limited length of fiber, so a long fiber needs many nuclei."
+  },
+  {
+   "shot": 13,
+   "t": 20,
+   "text": "Some satellite cells self-renew, restocking the reserve for future injuries."
+  },
+  {
+   "shot": 13,
+   "t": 23.2,
+   "text": "Myotubes become new fibers or fuse onto the surviving stumps."
+  },
+  {
+   "shot": 14,
+   "t": 0,
+   "text": "Clinical tie-in. Electrical stimulation."
+  },
+  {
+   "shot": 14,
+   "t": 0.7,
+   "text": "Rat strain model: low-frequency e-stim, 20 Hz, 30 minutes twice daily, started at day 5."
+  },
+  {
+   "shot": 14,
+   "t": 3.3,
+   "text": "It increased MyoD and myogenin and produced more mature, well-ordered fibers."
+  },
+  {
+   "shot": 14,
+   "t": 5.9,
+   "text": "Day 5 was chosen on purpose: after granulation tissue had bridged the gap."
+  },
+  {
+   "shot": 15,
+   "t": 0,
+   "text": "From about day 5, regenerating stumps send out branches that pierce into both sides of the scar."
+  },
+  {
+   "shot": 15,
+   "t": 6,
+   "text": "Each branch anchors to scar collagen through new mini-myotendinous junctions."
+  },
+  {
+   "shot": 15,
+   "t": 11,
+   "text": "Day 14: the scar condenses, and the fibers close most of the gap."
+  },
+  {
+   "shot": 15,
+   "t": 16.5,
+   "text": "Day 21: fibers from both sides interlace, with a thin seam of scar between them."
+  },
+  {
+   "shot": 15,
+   "t": 21.4,
+   "text": "Nerves regrow along old paths and new NMJs form. Regeneration peaks ~2 weeks and slows by ~4 weeks."
+  },
+  {
+   "shot": 16,
+   "t": 0,
+   "text": "Small gap with controlled scar: many fingers interlock."
+  },
+  {
+   "shot": 16,
+   "t": 5,
+   "text": "Large gap with excessive scar: a dense wall blocks the fibers, which stop and curl."
+  },
+  {
+   "shot": 17,
+   "t": 0,
+   "text": "Clinical tie-in. Tipping the balance toward muscle."
+  },
+  {
+   "shot": 17,
+   "t": 0.7,
+   "text": "Keep the gap small with early compression and protection."
+  },
+  {
+   "shot": 17,
+   "t": 3.3,
+   "text": "Relative rest for about the first 3–5 days, then progressive, pain-guided loading: isometric, then isotonic, then dynamic."
+  },
+  {
+   "shot": 17,
+   "t": 5.9,
+   "text": "Avoid prolonged immobilization. It leads to a larger, more disorganized, contracted scar."
+  },
+  {
+   "shot": 17,
+   "t": 8.5,
+   "text": "Too much TGF-β1 drives fibroblasts toward dense scar. Antifibrotic agents and PRP are experimental."
+  },
+  {
+   "shot": 18,
+   "t": 0,
+   "text": "New fibers grow thicker, move their nuclei to the edge, and line up their sarcomeres. Capillaries are pruned back."
+  },
+  {
+   "shot": 18,
+   "t": 6,
+   "text": "Collagen shifts from type III to type I, thickens, cross-links, and aligns with the direction of pull."
+  },
+  {
+   "shot": 18,
+   "t": 12,
+   "text": "Fibroblasts become myofibroblasts, which pull on the collagen like tiny winches. The scar contracts."
+  },
+  {
+   "shot": 18,
+   "t": 18.4,
+   "text": "Remodeling lasts months. In human strains, MRI still shows active repair at 6 months, after return to sport."
+  },
+  {
+   "shot": 19,
+   "t": 0,
+   "text": "Loaded muscle: aligned collagen, thin scar."
+  },
+  {
+   "shot": 19,
+   "t": 4.4,
+   "text": "Immobilized muscle: a tangled, shortened scar."
+  },
+  {
+   "shot": 20,
+   "t": 0,
+   "text": "Clinical tie-in. Speeding the type III → type I shift."
+  },
+  {
+   "shot": 20,
+   "t": 0.7,
+   "text": "Progressive mechanical loading drives collagen synthesis and alignment."
+  },
+  {
+   "shot": 20,
+   "t": 3.3,
+   "text": "Ensure adequate protein and energy intake."
+  },
+  {
+   "shot": 20,
+   "t": 5.9,
+   "text": "Avoid smoking and long courses of NSAIDs or corticosteroids."
+  },
+  {
+   "shot": 20,
+   "t": 8.5,
+   "text": "Cross-linking runs on biological time. Loading improves quality and alignment more than it shortens the calendar."
+  },
+  {
+   "shot": 21,
+   "t": 0,
+   "text": "Carla Stecco's group describes densification of the hyaluronan-rich layer between fascial sheets."
+  },
+  {
+   "shot": 21,
+   "t": 5.6,
+   "text": "After trauma, overuse, disuse or inflammation, the layer becomes more viscous, without true fibrosis having to be present."
+  },
+  {
+   "shot": 21,
+   "t": 11.2,
+   "text": "Gliding is reduced, and free nerve endings may become irritated."
+  },
+  {
+   "shot": 21,
+   "t": 16.2,
+   "text": "Two depths: the collagen scar inside the muscle is permanent. Densified gel is proposed to be reversible."
+  },
+  {
+   "shot": 21,
+   "t": 22.4,
+   "text": "Movement and manual shear are proposed to restore gliding. Direct human evidence for HA changes is limited."
+  },
+  {
+   "shot": 21,
+   "t": 27.6,
+   "text": "The muscle model and the fascial model complement each other."
+  },
+  {
+   "shot": 22,
+   "t": 0,
+   "text": "Clinical tie-in. Fascial work: evidence status."
+  },
+  {
+   "shot": 22,
+   "t": 0.7,
+   "text": "Myofascial release is consistently associated with short-term improvements in pain and range of motion."
+  },
+  {
+   "shot": 22,
+   "t": 3.3,
+   "text": "Long-term functional outcomes and direct structural change in fascia are inconsistent."
+  },
+  {
+   "shot": 22,
+   "t": 5.9,
+   "text": "Best supported as an adjunct that helps athletes move and engage in active rehab, not as stand-alone treatment."
+  },
+  {
+   "shot": 22,
+   "t": 8.5,
+   "text": "Proposed calcium–hyaluronan feedback loop; fascial stiffening may impair regeneration, so treat both muscle and fascia."
+  },
+  {
+   "shot": 22,
+   "t": 11.1,
+   "text": "Timing: gentle work and movement around the injury in subacute and remodeling phases. No aggressive deep work on the tear in week 1."
+  },
+  {
+   "shot": 23,
+   "t": 0,
+   "text": "The scar is not muscle. It is stiffer, does not contract, and changes how force passes through the muscle."
+  },
+  {
+   "shot": 23,
+   "t": 5,
+   "text": "The folded myotendinous junction may never fully return. Atrophy and fat infiltration develop."
+  },
+  {
+   "shot": 23,
+   "t": 10.6,
+   "text": "Neural inhibition: the injured muscle is under-activated, especially in eccentric work at long lengths."
+  },
+  {
+   "shot": 23,
+   "t": 15.8,
+   "text": "Returning to sport before the tissue has matured contributes to the high re-injury rate."
+  },
+  {
+   "shot": 24,
+   "t": 0,
+   "text": "Time the stimulus to the biology."
+  },
+  {
+   "shot": 24,
+   "t": 3,
+   "text": "0–48 h: stop, compress, elevate, protect. No eccentric loading. Acetaminophen preferred."
+  },
+  {
+   "shot": 24,
+   "t": 8.6,
+   "text": "Days 2–5: pain-free isometrics. Avoid both immobilization and aggressive loading."
+  },
+  {
+   "shot": 24,
+   "t": 14.2,
+   "text": "Days 5–21: progressive isotonic, then dynamic loading. Gentle fascial work around the site."
+  },
+  {
+   "shot": 24,
+   "t": 19.8,
+   "text": "Weeks 3–12: lengthening and eccentric work at long muscle lengths. Criteria-based return to sport."
+  },
+  {
+   "shot": 24,
+   "t": 25.4,
+   "text": "Months 3–6+: keep up eccentric strengthening, like Nordic curls, after return to play."
+  },
+  {
+   "shot": 25,
+   "t": 0,
+   "text": "Healing is a race between muscle regrowth and scar, inside a fascial system that has to keep gliding."
+  },
+  {
+   "shot": 25,
+   "t": 5,
+   "text": "Protect the wet cement, feed the supply lines, load the rebuilders, align the rope, and keep the layers sliding."
+  },
+  {
+   "shot": 26,
+   "t": 0.5,
+   "text": "The sources cited in this film are listed on screen."
+  }
+ ]
+}

@@ -829,7 +829,7 @@ function drawCardBody(ctx, data, t) {
 }
 function card(data) {
   return {
-    d: data.d || 2.4 + data.items.length * 2.6 + 3.2, card: true, badges: data.badges,
+    d: data.d || 2.4 + data.items.length * 2.6 + 3.2, card: true, badges: data.badges, cardData: data,
     draw: (ctx, t, d, L) => {
       const prev = L && L.sc.shots[L.i - 1];
       if (prev && !prev.card) prev.draw(ctx, prev.d - .01, prev.d, L); else bg(ctx);
@@ -844,7 +844,7 @@ const B = (t, s, p) => ({ t, s, p });
 const SCENES = [
   {
     num: 'SCENE 00', title: 'The Healthy Muscle', when: 'Cold open', shots: [
-      { d: 9, draw: introDraw, noHeader: true, card: true },
+      { d: 9, draw: introDraw, noHeader: true, card: true, voice: [{ t: 0, text: 'Inside the Strain. What happens inside a hamstring after a strain, from second zero to month six and beyond.' }, { t: 2.6, text: 'Most of this cellular timeline comes from rodent models. Human healing follows the same sequence, but probably runs more slowly, especially in larger injuries.' }] },
       {
         d: 32, draw: scene0, beats: [
           B(0, 'Skeletal muscle is built like a cable inside a cable inside a cable.', 'Picture a thick electrical cable.'),
@@ -1104,7 +1104,7 @@ const SCENES = [
           B(5, 'Protect the wet cement, feed the supply lines, load the rebuilders, align the rope, and keep the layers sliding.', 'Protect the wet cement, feed the supply lines, load the rebuilders, align the rope, and keep the layers sliding.')
         ]
       },
-      { d: 10, draw: refsDraw, card: true, noHeader: true }
+      { d: 10, draw: refsDraw, card: true, noHeader: true, voice: [{ t: .5, text: 'The sources cited in this film are listed on screen.' }] }
     ]
   }
 ];

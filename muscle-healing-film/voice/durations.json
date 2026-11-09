@@ -1,0 +1,970 @@
+[
+ {
+  "shot": 0,
+  "t": 0,
+  "text": "Inside the Strain. What happens inside a hamstring after a strain, from second zero to month six and beyond.",
+  "spoken": "Inside the Strain. What happens inside a hamstring after a strain, from second zero to month six and beyond.",
+  "dur": 7.116875,
+  "sr": 24000
+ },
+ {
+  "shot": 0,
+  "t": 2.6,
+  "text": "Most of this cellular timeline comes from rodent models. Human healing follows the same sequence, but probably runs more slowly, especially in larger injuries.",
+  "spoken": "Most of this cellular timeline comes from rodent models. Human healing follows the same sequence, but probably runs more slowly, especially in larger injuries.",
+  "dur": 10.88,
+  "sr": 24000
+ },
+ {
+  "shot": 1,
+  "t": 0,
+  "text": "Skeletal muscle is built like a cable inside a cable inside a cable.",
+  "spoken": "Skeletal muscle is built like a cable inside a cable inside a cable.",
+  "dur": 4.579625,
+  "sr": 24000
+ },
+ {
+  "shot": 1,
+  "t": 4.6,
+  "text": "The epimysium, the deep fascia, wraps the whole muscle.",
+  "spoken": "The epimysium, the deep fascia, wraps the whole muscle.",
+  "dur": 3.1485416666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 1,
+  "t": 9.4,
+  "text": "Perimysium wraps each bundle of fibers (fascicle). Endomysium wraps each individual fiber.",
+  "spoken": "Perimysium wraps each bundle of fibers, fascicle,. Endomysium wraps each individual fiber.",
+  "dur": 6.27175,
+  "sr": 24000
+ },
+ {
+  "shot": 1,
+  "t": 13.6,
+  "text": "Between fascial layers, a hyaluronan-rich loose connective tissue, made in part by fasciacytes, lets the layers glide.",
+  "spoken": "Between fascial layers, a hyaluronan-rich loose connective tissue, made in part by fasciacytes, lets the layers glide.",
+  "dur": 8.256,
+  "sr": 24000
+ },
+ {
+  "shot": 1,
+  "t": 19.4,
+  "text": "The basal lamina is fused to each fiber. Satellite cells, the muscle's stem cells, sit dormant just beneath it.",
+  "spoken": "The basal lamina is fused to each fiber. Satellite cells, the muscle's stem cells, sit dormant just beneath it.",
+  "dur": 7.351166666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 1,
+  "t": 24.8,
+  "text": "Each nucleus along the fiber manages one stretch of it: the myonuclear domain.",
+  "spoken": "Each nucleus along the fiber manages one stretch of it: the myonuclear domain.",
+  "dur": 5.073583333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 1,
+  "t": 28.6,
+  "text": "All layers are continuous with each other and the tendon, and pass force sideways: myofascial force transmission.",
+  "spoken": "All layers are continuous with each other and the tendon, and pass force sideways: myofascial force transmission.",
+  "dur": 7.168,
+  "sr": 24000
+ },
+ {
+  "shot": 2,
+  "t": 0,
+  "text": "Strains usually happen during a forceful eccentric contraction, like the late swing phase of sprinting.",
+  "spoken": "Strains usually happen during a forceful eccentric contraction, like the late swing phase of sprinting.",
+  "dur": 6.144,
+  "sr": 24000
+ },
+ {
+  "shot": 2,
+  "t": 4.4,
+  "text": "The hamstring is lengthening under load as the knee extends.",
+  "spoken": "The hamstring is lengthening under load as the knee extends.",
+  "dur": 3.456,
+  "sr": 24000
+ },
+ {
+  "shot": 2,
+  "t": 8.4,
+  "text": "Failure usually occurs near the myotendinous junction or the aponeurosis.",
+  "spoken": "Failure usually occurs near the myotendinous junction or the aponeurosis.",
+  "dur": 5.056,
+  "sr": 24000
+ },
+ {
+  "shot": 2,
+  "t": 11.4,
+  "text": "The fibers rupture, and the broken ends recoil and retract, leaving a gap.",
+  "spoken": "The fibers rupture, and the broken ends recoil and retract, leaving a gap.",
+  "dur": 4.842666666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 2,
+  "t": 15.4,
+  "text": "In shearing-type strains the basal lamina sleeves tear too, so regeneration is less orderly and more scar forms.",
+  "spoken": "In shearing-type strains the basal lamina sleeves tear too, so regeneration is less orderly and more scar forms.",
+  "dur": 7.424,
+  "sr": 24000
+ },
+ {
+  "shot": 2,
+  "t": 18.8,
+  "text": "Capillaries in the gap tear and bleed.",
+  "spoken": "Capillaries in the gap tear and bleed.",
+  "dur": 2.005333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 3,
+  "t": 0,
+  "text": "Hematoma: blood fills the gap and clots into a fibrin mesh.",
+  "spoken": "Hematoma: blood fills the gap and clots into a fibrin mesh.",
+  "dur": 4.032,
+  "sr": 24000
+ },
+ {
+  "shot": 3,
+  "t": 4.6,
+  "text": "The fibrin net runs in every direction. It is a solid plug, not a hollow box.",
+  "spoken": "The fibrin net runs in every direction. It is a solid plug, not a hollow box.",
+  "dur": 5.418666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 3,
+  "t": 8.4,
+  "text": "Calcium pours into torn fibers through the ruptured membrane and stretch-activated channels.",
+  "spoken": "Calcium pours into torn fibers through the ruptured membrane and stretch-activated channels.",
+  "dur": 5.717333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 3,
+  "t": 12.6,
+  "text": "Calcium activates calpain. With reactive oxygen species, damage spreads along the fiber: secondary injury.",
+  "spoken": "Calcium activates calpain. With reactive oxygen species, damage spreads along the fiber: secondary injury.",
+  "dur": 7.616,
+  "sr": 24000
+ },
+ {
+  "shot": 3,
+  "t": 18.4,
+  "text": "Within hours, a contraction band of hypercontracted filaments reseals the membrane and stops the spread.",
+  "spoken": "Within hours, a contraction band of hypercontracted filaments reseals the membrane and stops the spread.",
+  "dur": 6.784,
+  "sr": 24000
+ },
+ {
+  "shot": 3,
+  "t": 21.6,
+  "text": "This happens automatically. It does not depend on the athlete contracting the muscle.",
+  "spoken": "This happens automatically. It does not depend on the athlete contracting the muscle.",
+  "dur": 5.039625,
+  "sr": 24000
+ },
+ {
+  "shot": 3,
+  "t": 24.2,
+  "text": "Torn vessels and swelling cut off oxygen to the area, which can kill more fibers.",
+  "spoken": "Torn vessels and swelling cut off oxygen to the area, which can kill more fibers.",
+  "dur": 5.184,
+  "sr": 24000
+ },
+ {
+  "shot": 4,
+  "t": 0,
+  "text": "Clinical tie-in. What limits secondary damage.",
+  "spoken": "Clinical tie-in. What limits secondary damage.",
+  "dur": 3.045125,
+  "sr": 24000
+ },
+ {
+  "shot": 4,
+  "t": 0.7,
+  "text": "Stop activity right away. Compress and elevate to control bleeding and swelling.",
+  "spoken": "Stop activity right away. Compress and elevate to control bleeding and swelling.",
+  "dur": 5.20225,
+  "sr": 24000
+ },
+ {
+  "shot": 4,
+  "t": 3.3,
+  "text": "Avoid eccentric loading in the first days.",
+  "spoken": "Avoid eccentric loading in the first days.",
+  "dur": 2.5585416666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 4,
+  "t": 5.9,
+  "text": "Myth to correct: voluntary isometrics in the first hours do not \"build\" the contraction band. Tension across a fresh tear can widen the gap.",
+  "spoken": "Myth to correct: voluntary isometrics in the first hours do not build the contraction band. Tension across a fresh tear can widen the gap.",
+  "dur": 9.322666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 4,
+  "t": 8.5,
+  "text": "Immediate active mobilization in rats produced larger scars and frequent re-rupture. About 5 days of relative rest let granulation tissue bridge the gap first.",
+  "spoken": "Immediate active mobilization in rats produced larger scars and frequent re-rupture. About 5 days of relative rest let granulation tissue bridge the gap first.",
+  "dur": 11.114666666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 4,
+  "t": 11.1,
+  "text": "No proven treatment blocks the calcium cascade after injury in humans. Pre-exercise L-arginine shows promise as prevention only. Antioxidant supplements have not helped.",
+  "spoken": "No proven treatment blocks the calcium cascade after injury in humans. Pre-exercise L-arginine shows promise as prevention only. Antioxidant supplements have not helped.",
+  "dur": 12.074666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 5,
+  "t": 0,
+  "text": "Damaged cells release alarm molecules (DAMPs) that call in immune cells.",
+  "spoken": "Damaged cells release alarm molecules, damps, that call in immune cells.",
+  "dur": 4.690541666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 5,
+  "t": 4.2,
+  "text": "Neutrophils arrive within hours.",
+  "spoken": "Neutrophils arrive within hours.",
+  "dur": 2.0740833333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 5,
+  "t": 8.6,
+  "text": "Pro-inflammatory M1 macrophages follow and dominate the first ~3 days, engulfing necrotic debris.",
+  "spoken": "Pro-inflammatory M one macrophages follow and dominate the first about 3 days, engulfing necrotic debris.",
+  "dur": 7.720541666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 5,
+  "t": 14.2,
+  "text": "Behind each contraction band the dead segment is cleared, leaving an empty basal-lamina tube.",
+  "spoken": "Behind each contraction band the dead segment is cleared, leaving an empty basal-lamina tube.",
+  "dur": 6.336,
+  "sr": 24000
+ },
+ {
+  "shot": 5,
+  "t": 18.2,
+  "text": "TNF, IL-1\u03b2 and IL-6 also tell satellite cells to wake up and multiply.",
+  "spoken": "T N F, I L one beta and I L six also tell satellite cells to wake up and multiply.",
+  "dur": 6.592,
+  "sr": 24000
+ },
+ {
+  "shot": 5,
+  "t": 21.6,
+  "text": "Inflammation here is not only damage. It is the starting signal for regeneration.",
+  "spoken": "Inflammation here is not only damage. It is the starting signal for regeneration.",
+  "dur": 5.478791666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 6,
+  "t": 0,
+  "text": "After eating dead cells (efferocytosis), macrophages reprogram into M2 \"repair\" macrophages.",
+  "spoken": "After eating dead cells, efferocytosis,, macrophages reprogram into M two repair macrophages.",
+  "dur": 6.975083333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 6,
+  "t": 5.4,
+  "text": "M2 cells release IL-10, IGF-1 and growth factors that calm inflammation and drive satellite-cell differentiation and fusion.",
+  "spoken": "M two cells release I L ten, I G F one and growth factors that calm inflammation and drive satellite-cell differentiation and fusion.",
+  "dur": 9.493333333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 6,
+  "t": 10.6,
+  "text": "M1 and M2 are ends of a continuum. Finishing the cleanup triggers the switch, not inflammation simply fading.",
+  "spoken": "M one and M two are ends of a continuum. Finishing the cleanup triggers the switch, not inflammation simply fading.",
+  "dur": 7.8442083333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 6,
+  "t": 15.6,
+  "text": "Repeated re-injury restarts M1 activity and pushes toward chronic inflammation and fibrosis.",
+  "spoken": "Repeated re-injury restarts M one activity and pushes toward chronic inflammation and fibrosis.",
+  "dur": 6.656,
+  "sr": 24000
+ },
+ {
+  "shot": 7,
+  "t": 0,
+  "text": "NSAIDs block COX enzymes in the injured tissue, which lowers local prostaglandins.",
+  "spoken": "N-sayds block cox enzymes in the injured tissue, which lowers local prostaglandins.",
+  "dur": 5.695875,
+  "sr": 24000
+ },
+ {
+  "shot": 7,
+  "t": 4.8,
+  "text": "Some of those prostaglandins are signals satellite cells use.",
+  "spoken": "Some of those prostaglandins are signals satellite cells use.",
+  "dur": 3.989333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 7,
+  "t": 8.6,
+  "text": "Acetaminophen works mainly in the central nervous system and has little effect on local prostaglandins.",
+  "spoken": "Acetaminophen works mainly in the central nervous system and has little effect on local prostaglandins.",
+  "dur": 6.625875,
+  "sr": 24000
+ },
+ {
+  "shot": 7,
+  "t": 12.8,
+  "text": "In mice it did not impair regeneration.",
+  "spoken": "In mice it did not impair regeneration.",
+  "dur": 2.49375,
+  "sr": 24000
+ },
+ {
+  "shot": 8,
+  "t": 0,
+  "text": "Clinical tie-in. Pain medication during regeneration.",
+  "spoken": "Clinical tie-in. Pain medication during regeneration.",
+  "dur": 3.7481666666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 8,
+  "t": 0.7,
+  "text": "Short-term NSAID use gave small benefits in strength loss, soreness and CK. No human study followed outcomes beyond 14 days.",
+  "spoken": "Short-term N-sayd use gave small benefits in strength loss, soreness and C K. No human study followed outcomes beyond 14 days.",
+  "dur": 9.408,
+  "sr": 24000
+ },
+ {
+  "shot": 8,
+  "t": 3.3,
+  "text": "In animals, effects turned negative with longer courses or later timing. Ketorolac at 47 h impaired regeneration in mice, though the macrophage switch was unaffected.",
+  "spoken": "In animals, effects turned negative with longer courses or later timing. Ketorolac at 47 hours impaired regeneration in mice, though the macrophage switch was unaffected.",
+  "dur": 11.981666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 8,
+  "t": 5.9,
+  "text": "Conflicting: ibuprofen 1,200 mg/day (2 wk before, 4 wk after) increased satellite-cell activation and sped remodeling at 30 days in an e-stim injury model.",
+  "spoken": "Conflicting: ibuprofen twelve hundred milligrams a day, 2 weeks before, 4 weeks after, increased satellite-cell activation and sped remodeling at 30 days in an e-stim injury model.",
+  "dur": 12.48,
+  "sr": 24000
+ },
+ {
+  "shot": 8,
+  "t": 8.5,
+  "text": "Acetaminophen did not impair regeneration in mice.",
+  "spoken": "Acetaminophen did not impair regeneration in mice.",
+  "dur": 3.9244166666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 8,
+  "t": 11.1,
+  "text": "Position: prefer acetaminophen for pain. If an NSAID is used, keep it short. Avoid regular use over several weeks during regeneration. Mind GI, kidney and bleeding risk.",
+  "spoken": "Position: prefer acetaminophen for pain. If an N-sayd is used, keep it short. Avoid regular use over several weeks during regeneration. Mind G I, kidney and bleeding risk.",
+  "dur": 12.672,
+  "sr": 24000
+ },
+ {
+  "shot": 9,
+  "t": 0,
+  "text": "New capillaries sprout from intact vessels at the edges and grow into the clot and granulation tissue.",
+  "spoken": "New capillaries sprout from intact vessels at the edges and grow into the clot and granulation tissue.",
+  "dur": 6.225416666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 9,
+  "t": 5.4,
+  "text": "They are visible by about day 3, driven by VEGF released by macrophages.",
+  "spoken": "They are visible by about day 3, driven by vej-eff released by macrophages.",
+  "dur": 5.376,
+  "sr": 24000
+ },
+ {
+  "shot": 9,
+  "t": 10.8,
+  "text": "Oxygen delivery is rate-limiting. Regeneration moves only as fast as the supply lines advance.",
+  "spoken": "Oxygen delivery is rate-limiting. Regeneration moves only as fast as the supply lines advance.",
+  "dur": 6.8053333333333335,
+  "sr": 24000
+ },
+ {
+  "shot": 9,
+  "t": 15.8,
+  "text": "The goal is to restore blood flow, not to flood the tissue with oxygen.",
+  "spoken": "The goal is to restore blood flow, not to flood the tissue with oxygen.",
+  "dur": 4.48,
+  "sr": 24000
+ },
+ {
+  "shot": 10,
+  "t": 0,
+  "text": "Shockwave in rats: one session increased satellite-cell recruitment, proliferation and differentiation.",
+  "spoken": "Shockwave in rats: one session increased satellite-cell recruitment, proliferation and differentiation.",
+  "dur": 6.634666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 10,
+  "t": 6,
+  "text": "Treated muscle reached at day 4 what untreated muscle reached at day 7. Controlled human trials in acute strains are lacking.",
+  "spoken": "Treated muscle reached at day 4 what untreated muscle reached at day 7. Controlled human trials in acute strains are lacking.",
+  "dur": 8.275625,
+  "sr": 24000
+ },
+ {
+  "shot": 11,
+  "t": 0,
+  "text": "Clinical tie-in. Supporting the supply lines.",
+  "spoken": "Clinical tie-in. Supporting the supply lines.",
+  "dur": 3.002875,
+  "sr": 24000
+ },
+ {
+  "shot": 11,
+  "t": 0.7,
+  "text": "Support blood flow with pain-guided early movement, swelling control and nicotine avoidance.",
+  "spoken": "Support blood flow with pain-guided early movement, swelling control and nicotine avoidance.",
+  "dur": 5.930666666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 11,
+  "t": 3.3,
+  "text": "Shockwave (ESWT): faster regeneration in rats. Reviews describe VEGF- and eNOS-driven vessel growth. Controlled human trials in acute strains are lacking.",
+  "spoken": "Shockwave, E S W T,: faster regeneration in rats. Reviews describe vej-eff- and e-noss-driven vessel growth. Controlled human trials in acute strains are lacking.",
+  "dur": 12.522666666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 11,
+  "t": 5.9,
+  "text": "Hyperbaric oxygen improved oxygenation and regeneration in rat contusions. Human data are lacking, and it is not standard care.",
+  "spoken": "Hyperbaric oxygen improved oxygenation and regeneration in rat contusions. Human data are lacking, and it is not standard care.",
+  "dur": 9.088,
+  "sr": 24000
+ },
+ {
+  "shot": 12,
+  "t": 0,
+  "text": "Fibrin and fibronectin from the clot cross-link into granulation tissue, a primary extracellular matrix.",
+  "spoken": "Fibrin and fibronectin from the clot cross-link into granulation tissue, a primary extracellular matrix.",
+  "dur": 7.04,
+  "sr": 24000
+ },
+ {
+  "shot": 12,
+  "t": 5.4,
+  "text": "It anchors fibroblasts, which lay down tenascin-C and fibronectin, then type III collagen.",
+  "spoken": "It anchors fibroblasts, which lay down tenascin C and fibronectin, then type three collagen.",
+  "dur": 6.250666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 12,
+  "t": 11,
+  "text": "New capillary loops make the tissue red and grainy, which is where \"granulation\" comes from.",
+  "spoken": "New capillary loops make the tissue red and grainy, which is where granulation comes from.",
+  "dur": 5.329375,
+  "sr": 24000
+ },
+ {
+  "shot": 12,
+  "t": 15.4,
+  "text": "Type III fibers start out disorganized. Type I, which provides most tensile strength, comes later.",
+  "spoken": "Type three fibers start out disorganized. Type one, which provides most tensile strength, comes later.",
+  "dur": 6.613333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 12,
+  "t": 18.8,
+  "text": "The plug fills the gap stump to stump. In week one it holds, but tears easily.",
+  "spoken": "The plug fills the gap stump to stump. In week one it holds, but tears easily.",
+  "dur": 4.778666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 13,
+  "t": 0,
+  "text": "Activated satellite cells switch on MyoD and Myf5 and multiply as myoblasts.",
+  "spoken": "Activated satellite cells switch on myo D and myf five and multiply as myoblasts.",
+  "dur": 6.165333333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 13,
+  "t": 6,
+  "text": "They multiply inside the empty basal-lamina tunnels.",
+  "spoken": "They multiply inside the empty basal-lamina tunnels.",
+  "dur": 3.529125,
+  "sr": 24000
+ },
+ {
+  "shot": 13,
+  "t": 10.2,
+  "text": "They switch on myogenin and fuse into a multinucleated myotube.",
+  "spoken": "They switch on myogenin and fuse into a multinucleated myotube.",
+  "dur": 4.629333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 13,
+  "t": 15.2,
+  "text": "Each nucleus can only support a limited length of fiber, so a long fiber needs many nuclei.",
+  "spoken": "Each nucleus can only support a limited length of fiber, so a long fiber needs many nuclei.",
+  "dur": 5.927333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 13,
+  "t": 20,
+  "text": "Some satellite cells self-renew, restocking the reserve for future injuries.",
+  "spoken": "Some satellite cells self-renew, restocking the reserve for future injuries.",
+  "dur": 4.778666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 13,
+  "t": 23.2,
+  "text": "Myotubes become new fibers or fuse onto the surviving stumps.",
+  "spoken": "Myotubes become new fibers or fuse onto the surviving stumps.",
+  "dur": 4.224,
+  "sr": 24000
+ },
+ {
+  "shot": 14,
+  "t": 0,
+  "text": "Clinical tie-in. Electrical stimulation.",
+  "spoken": "Clinical tie-in. Electrical stimulation.",
+  "dur": 2.8957916666666668,
+  "sr": 24000
+ },
+ {
+  "shot": 14,
+  "t": 0.7,
+  "text": "Rat strain model: low-frequency e-stim, 20 Hz, 30 minutes twice daily, started at day 5.",
+  "spoken": "Rat strain model: low-frequency e-stim, 20 hertz, 30 minutes twice daily, started at day 5.",
+  "dur": 6.505541666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 14,
+  "t": 3.3,
+  "text": "It increased MyoD and myogenin and produced more mature, well-ordered fibers.",
+  "spoken": "It increased myo D and myogenin and produced more mature, well-ordered fibers.",
+  "dur": 5.397333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 14,
+  "t": 5.9,
+  "text": "Day 5 was chosen on purpose: after granulation tissue had bridged the gap.",
+  "spoken": "Day 5 was chosen on purpose: after granulation tissue had bridged the gap.",
+  "dur": 5.0195,
+  "sr": 24000
+ },
+ {
+  "shot": 15,
+  "t": 0,
+  "text": "From about day 5, regenerating stumps send out branches that pierce into both sides of the scar.",
+  "spoken": "From about day 5, regenerating stumps send out branches that pierce into both sides of the scar.",
+  "dur": 6.144,
+  "sr": 24000
+ },
+ {
+  "shot": 15,
+  "t": 6,
+  "text": "Each branch anchors to scar collagen through new mini-myotendinous junctions.",
+  "spoken": "Each branch anchors to scar collagen through new mini-myotendinous junctions.",
+  "dur": 4.945416666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 15,
+  "t": 11,
+  "text": "Day 14: the scar condenses, and the fibers close most of the gap.",
+  "spoken": "Day 14: the scar condenses, and the fibers close most of the gap.",
+  "dur": 4.565333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 15,
+  "t": 16.5,
+  "text": "Day 21: fibers from both sides interlace, with a thin seam of scar between them.",
+  "spoken": "Day 21: fibers from both sides interlace, with a thin seam of scar between them.",
+  "dur": 5.780958333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 15,
+  "t": 21.4,
+  "text": "Nerves regrow along old paths and new NMJs form. Regeneration peaks ~2 weeks and slows by ~4 weeks.",
+  "spoken": "Nerves regrow along old paths and new neuromuscular junctions form. Regeneration peaks about 2 weeks and slows by about 4 weeks.",
+  "dur": 9.140833333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 16,
+  "t": 0,
+  "text": "Small gap with controlled scar: many fingers interlock.",
+  "spoken": "Small gap with controlled scar: many fingers interlock.",
+  "dur": 3.584,
+  "sr": 24000
+ },
+ {
+  "shot": 16,
+  "t": 5,
+  "text": "Large gap with excessive scar: a dense wall blocks the fibers, which stop and curl.",
+  "spoken": "Large gap with excessive scar: a dense wall blocks the fibers, which stop and curl.",
+  "dur": 5.376,
+  "sr": 24000
+ },
+ {
+  "shot": 17,
+  "t": 0,
+  "text": "Clinical tie-in. Tipping the balance toward muscle.",
+  "spoken": "Clinical tie-in. Tipping the balance toward muscle.",
+  "dur": 3.029333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 17,
+  "t": 0.7,
+  "text": "Keep the gap small with early compression and protection.",
+  "spoken": "Keep the gap small with early compression and protection.",
+  "dur": 3.0778333333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 17,
+  "t": 3.3,
+  "text": "Relative rest for about the first 3\u20135 days, then progressive, pain-guided loading: isometric, then isotonic, then dynamic.",
+  "spoken": "Relative rest for about the first 3 to 5 days, then progressive, pain-guided loading: isometric, then isotonic, then dynamic.",
+  "dur": 8.829041666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 17,
+  "t": 5.9,
+  "text": "Avoid prolonged immobilization. It leads to a larger, more disorganized, contracted scar.",
+  "spoken": "Avoid prolonged immobilization. It leads to a larger, more disorganized, contracted scar.",
+  "dur": 6.378666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 17,
+  "t": 8.5,
+  "text": "Too much TGF-\u03b21 drives fibroblasts toward dense scar. Antifibrotic agents and PRP are experimental.",
+  "spoken": "Too much T G F beta one drives fibroblasts toward dense scar. Antifibrotic agents and P R P are experimental.",
+  "dur": 8.849333333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 18,
+  "t": 0,
+  "text": "New fibers grow thicker, move their nuclei to the edge, and line up their sarcomeres. Capillaries are pruned back.",
+  "spoken": "New fibers grow thicker, move their nuclei to the edge, and line up their sarcomeres. Capillaries are pruned back.",
+  "dur": 6.883291666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 18,
+  "t": 6,
+  "text": "Collagen shifts from type III to type I, thickens, cross-links, and aligns with the direction of pull.",
+  "spoken": "Collagen shifts from type three to type one, thickens, cross-links, and aligns with the direction of pull.",
+  "dur": 6.634666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 18,
+  "t": 12,
+  "text": "Fibroblasts become myofibroblasts, which pull on the collagen like tiny winches. The scar contracts.",
+  "spoken": "Fibroblasts become myofibroblasts, which pull on the collagen like tiny winches. The scar contracts.",
+  "dur": 6.8693333333333335,
+  "sr": 24000
+ },
+ {
+  "shot": 18,
+  "t": 18.4,
+  "text": "Remodeling lasts months. In human strains, MRI still shows active repair at 6 months, after return to sport.",
+  "spoken": "Remodeling lasts months. In human strains, M R I still shows active repair at 6 months, after return to sport.",
+  "dur": 8.084,
+  "sr": 24000
+ },
+ {
+  "shot": 19,
+  "t": 0,
+  "text": "Loaded muscle: aligned collagen, thin scar.",
+  "spoken": "Loaded muscle: aligned collagen, thin scar.",
+  "dur": 3.022125,
+  "sr": 24000
+ },
+ {
+  "shot": 19,
+  "t": 4.4,
+  "text": "Immobilized muscle: a tangled, shortened scar.",
+  "spoken": "Immobilized muscle: a tangled, shortened scar.",
+  "dur": 3.1481666666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 20,
+  "t": 0,
+  "text": "Clinical tie-in. Speeding the type III \u2192 type I shift.",
+  "spoken": "Clinical tie-in. Speeding the type three to type one shift.",
+  "dur": 3.7525,
+  "sr": 24000
+ },
+ {
+  "shot": 20,
+  "t": 0.7,
+  "text": "Progressive mechanical loading drives collagen synthesis and alignment.",
+  "spoken": "Progressive mechanical loading drives collagen synthesis and alignment.",
+  "dur": 4.544,
+  "sr": 24000
+ },
+ {
+  "shot": 20,
+  "t": 3.3,
+  "text": "Ensure adequate protein and energy intake.",
+  "spoken": "Ensure adequate protein and energy intake.",
+  "dur": 2.6188333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 20,
+  "t": 5.9,
+  "text": "Avoid smoking and long courses of NSAIDs or corticosteroids.",
+  "spoken": "Avoid smoking and long courses of N-sayds or corticosteroids.",
+  "dur": 4.565333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 20,
+  "t": 8.5,
+  "text": "Cross-linking runs on biological time. Loading improves quality and alignment more than it shortens the calendar.",
+  "spoken": "Cross-linking runs on biological time. Loading improves quality and alignment more than it shortens the calendar.",
+  "dur": 7.36,
+  "sr": 24000
+ },
+ {
+  "shot": 21,
+  "t": 0,
+  "text": "Carla Stecco's group describes densification of the hyaluronan-rich layer between fascial sheets.",
+  "spoken": "Carla Stecco's group describes densification of the hyaluronan-rich layer between fascial sheets.",
+  "dur": 6.656,
+  "sr": 24000
+ },
+ {
+  "shot": 21,
+  "t": 5.6,
+  "text": "After trauma, overuse, disuse or inflammation, the layer becomes more viscous, without true fibrosis having to be present.",
+  "spoken": "After trauma, overuse, disuse or inflammation, the layer becomes more viscous, without true fibrosis having to be present.",
+  "dur": 8.277333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 21,
+  "t": 11.2,
+  "text": "Gliding is reduced, and free nerve endings may become irritated.",
+  "spoken": "Gliding is reduced, and free nerve endings may become irritated.",
+  "dur": 4.052625,
+  "sr": 24000
+ },
+ {
+  "shot": 21,
+  "t": 16.2,
+  "text": "Two depths: the collagen scar inside the muscle is permanent. Densified gel is proposed to be reversible.",
+  "spoken": "Two depths: the collagen scar inside the muscle is permanent. Densified gel is proposed to be reversible.",
+  "dur": 7.2035,
+  "sr": 24000
+ },
+ {
+  "shot": 21,
+  "t": 22.4,
+  "text": "Movement and manual shear are proposed to restore gliding. Direct human evidence for HA changes is limited.",
+  "spoken": "Movement and manual shear are proposed to restore gliding. Direct human evidence for hyaluronan changes is limited.",
+  "dur": 8.106666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 21,
+  "t": 27.6,
+  "text": "The muscle model and the fascial model complement each other.",
+  "spoken": "The muscle model and the fascial model complement each other.",
+  "dur": 3.6221666666666668,
+  "sr": 24000
+ },
+ {
+  "shot": 22,
+  "t": 0,
+  "text": "Clinical tie-in. Fascial work: evidence status.",
+  "spoken": "Clinical tie-in. Fascial work: evidence status.",
+  "dur": 3.322875,
+  "sr": 24000
+ },
+ {
+  "shot": 22,
+  "t": 0.7,
+  "text": "Myofascial release is consistently associated with short-term improvements in pain and range of motion.",
+  "spoken": "Myofascial release is consistently associated with short-term improvements in pain and range of motion.",
+  "dur": 6.762666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 22,
+  "t": 3.3,
+  "text": "Long-term functional outcomes and direct structural change in fascia are inconsistent.",
+  "spoken": "Long-term functional outcomes and direct structural change in fascia are inconsistent.",
+  "dur": 5.513333333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 22,
+  "t": 5.9,
+  "text": "Best supported as an adjunct that helps athletes move and engage in active rehab, not as stand-alone treatment.",
+  "spoken": "Best supported as an adjunct that helps athletes move and engage in active rehab, not as stand-alone treatment.",
+  "dur": 6.848,
+  "sr": 24000
+ },
+ {
+  "shot": 22,
+  "t": 8.5,
+  "text": "Proposed calcium\u2013hyaluronan feedback loop; fascial stiffening may impair regeneration, so treat both muscle and fascia.",
+  "spoken": "Proposed calcium hyaluronan feedback loop; fascial stiffening may impair regeneration, so treat both muscle and fascia.",
+  "dur": 8.593416666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 22,
+  "t": 11.1,
+  "text": "Timing: gentle work and movement around the injury in subacute and remodeling phases. No aggressive deep work on the tear in week 1.",
+  "spoken": "Timing: gentle work and movement around the injury in subacute and remodeling phases. No aggressive deep work on the tear in week 1.",
+  "dur": 8.618666666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 23,
+  "t": 0,
+  "text": "The scar is not muscle. It is stiffer, does not contract, and changes how force passes through the muscle.",
+  "spoken": "The scar is not muscle. It is stiffer, does not contract, and changes how force passes through the muscle.",
+  "dur": 6.506666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 23,
+  "t": 5,
+  "text": "The folded myotendinous junction may never fully return. Atrophy and fat infiltration develop.",
+  "spoken": "The folded myotendinous junction may never fully return. Atrophy and fat infiltration develop.",
+  "dur": 6.8053333333333335,
+  "sr": 24000
+ },
+ {
+  "shot": 23,
+  "t": 10.6,
+  "text": "Neural inhibition: the injured muscle is under-activated, especially in eccentric work at long lengths.",
+  "spoken": "Neural inhibition: the injured muscle is under-activated, especially in eccentric work at long lengths.",
+  "dur": 6.972791666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 23,
+  "t": 15.8,
+  "text": "Returning to sport before the tissue has matured contributes to the high re-injury rate.",
+  "spoken": "Returning to sport before the tissue has matured contributes to the high re-injury rate.",
+  "dur": 5.269333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 24,
+  "t": 0,
+  "text": "Time the stimulus to the biology.",
+  "spoken": "Time the stimulus to the biology.",
+  "dur": 2.1094583333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 24,
+  "t": 3,
+  "text": "0\u201348 h: stop, compress, elevate, protect. No eccentric loading. Acetaminophen preferred.",
+  "spoken": "Zero to forty-eight hours: stop, compress, elevate, protect. No eccentric loading. Acetaminophen preferred.",
+  "dur": 7.808,
+  "sr": 24000
+ },
+ {
+  "shot": 24,
+  "t": 8.6,
+  "text": "Days 2\u20135: pain-free isometrics. Avoid both immobilization and aggressive loading.",
+  "spoken": "Days 2 to 5: pain-free isometrics. Avoid both immobilization and aggressive loading.",
+  "dur": 6.328791666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 24,
+  "t": 14.2,
+  "text": "Days 5\u201321: progressive isotonic, then dynamic loading. Gentle fascial work around the site.",
+  "spoken": "Days 5 to 21: progressive isotonic, then dynamic loading. Gentle fascial work around the site.",
+  "dur": 7.210666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 24,
+  "t": 19.8,
+  "text": "Weeks 3\u201312: lengthening and eccentric work at long muscle lengths. Criteria-based return to sport.",
+  "spoken": "Weeks 3 to 12: lengthening and eccentric work at long muscle lengths. Criteria-based return to sport.",
+  "dur": 7.252041666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 24,
+  "t": 25.4,
+  "text": "Months 3\u20136+: keep up eccentric strengthening, like Nordic curls, after return to play.",
+  "spoken": "Months 3 to 6 and beyond: keep up eccentric strengthening, like Nordic curls, after return to play.",
+  "dur": 6.654416666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 25,
+  "t": 0,
+  "text": "Healing is a race between muscle regrowth and scar, inside a fascial system that has to keep gliding.",
+  "spoken": "Healing is a race between muscle regrowth and scar, inside a fascial system that has to keep gliding.",
+  "dur": 6.537541666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 25,
+  "t": 5,
+  "text": "Protect the wet cement, feed the supply lines, load the rebuilders, align the rope, and keep the layers sliding.",
+  "spoken": "Protect the wet cement, feed the supply lines, load the rebuilders, align the rope, and keep the layers sliding.",
+  "dur": 6.758208333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 26,
+  "t": 0.5,
+  "text": "The sources cited in this film are listed on screen.",
+  "spoken": "The sources cited in this film are listed on screen.",
+  "dur": 3.1786666666666665,
+  "sr": 24000
+ }
+]
