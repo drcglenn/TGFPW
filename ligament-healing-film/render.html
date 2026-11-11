@@ -1,0 +1,13 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap">
+<style>html,body{margin:0;background:#000}</style></head>
+<body><canvas id="c" width="1920" height="1080"></canvas>
+<script src="../muscle-healing-film/film-core.js"></script><script src="lig-engine.js"></script><script src="lig-scenes.js"></script>
+<script>
+const c=document.getElementById('c').getContext('2d');
+window.RENDER=(t,mode)=>{c.setTransform(1920/W,0,0,1080/H,0,0);renderFilm(c,t,mode||'sci');};
+window.FONTS_READY=Promise.all(['700 40px "Barlow Condensed"','800 40px "Barlow Condensed"','500 20px "Barlow"','600 20px "Barlow"','400 20px "Barlow"','500 16px "JetBrains Mono"','600 16px "JetBrains Mono"','700 16px "JetBrains Mono"'].map(f=>document.fonts.load(f))).then(()=>document.fonts.check('700 40px "Barlow Condensed"'));
+window.TOTAL_=TOTAL;
+window.SCENE_STARTS=SCENES.map(s=>[s.num,s.start,s.dur]);
+</script></body></html>

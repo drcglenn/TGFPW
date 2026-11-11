@@ -1,0 +1,666 @@
+[
+ {
+  "shot": 0,
+  "t": 0,
+  "text": "Patched, not rebuilt. How a ligament heals after a sprain, and why it is different from muscle.",
+  "spoken": "Patched, not rebuilt. How a ligament heals after a sprain, and why it is different from muscle.",
+  "dur": 5.76,
+  "sr": 24000
+ },
+ {
+  "shot": 1,
+  "t": 0,
+  "text": "Muscle and ligament go through the same repair steps.",
+  "spoken": "Muscle and ligament go through the same repair steps.",
+  "dur": 3.0933333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 1,
+  "t": 5,
+  "text": "But only one of them can actually rebuild itself.",
+  "spoken": "But only one of them can actually rebuild itself.",
+  "dur": 2.752,
+  "sr": 24000
+ },
+ {
+  "shot": 1,
+  "t": 10,
+  "text": "The other patches the hole with scar, and it never fully goes back to the original.",
+  "spoken": "The other patches the hole with scar, and it never fully goes back to the original.",
+  "dur": 4.650666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 2,
+  "t": 0,
+  "text": "A ligament is mostly type I collagen, arranged in tight parallel bundles.",
+  "spoken": "A ligament is mostly type one collagen, arranged in tight parallel bundles.",
+  "dur": 4.9905,
+  "sr": 24000
+ },
+ {
+  "shot": 2,
+  "t": 8.6,
+  "text": "It has very few cells and a poor blood supply.",
+  "spoken": "It has very few cells and a poor blood supply.",
+  "dur": 2.908541666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 2,
+  "t": 15.4,
+  "text": "Most of its vessels, nerves, and backup cells live in the outer layer, the epiligament.",
+  "spoken": "Most of its vessels, nerves, and backup cells live in the outer layer, the epiligament.",
+  "dur": 5.198166666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 2,
+  "t": 23.4,
+  "text": "Ligaments also contain mechanoreceptors that tell the brain where the joint is.",
+  "spoken": "Ligaments also contain mechanoreceptors that tell the brain where the joint is.",
+  "dur": 4.778666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 3,
+  "t": 0,
+  "text": "Clinical tie-in. Compared with muscle.",
+  "spoken": "Clinical tie-in. Compared with muscle.",
+  "dur": 2.4057916666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 3,
+  "t": 0.7,
+  "text": "Muscle is packed with blood vessels and has satellite cells under every fiber.",
+  "spoken": "Muscle is packed with blood vessels and has satellite cells under every fiber.",
+  "dur": 4.949333333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 3,
+  "t": 3.3,
+  "text": "Ligament has neither, so it has to recruit help from outside.",
+  "spoken": "Ligament has neither, so it has to recruit help from outside.",
+  "dur": 3.66,
+  "sr": 24000
+ },
+ {
+  "shot": 3,
+  "t": 5.9,
+  "text": "Stecco link: the epiligament plays the same role for ligament that the epimysium and deep fascia play for muscle. It is the gliding, vessel-rich, cell-supplying envelope.",
+  "spoken": "Stecco link: the epiligament plays the same role for ligament that the epimysium and deep fascia play for muscle. It is the gliding, vessel-rich, cell-supplying envelope.",
+  "dur": 11.157333333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 4,
+  "t": 0,
+  "text": "When the fibers snap, the ligament cells lose the tension they depend on, and many of them die within hours.",
+  "spoken": "When the fibers snap, the ligament cells lose the tension they depend on, and many of them die within hours.",
+  "dur": 6.676708333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 4,
+  "t": 10.6,
+  "text": "Bleeding comes mostly from the torn epiligament.",
+  "spoken": "Bleeding comes mostly from the torn epiligament.",
+  "dur": 2.7597916666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 4,
+  "t": 15.6,
+  "text": "Unlike muscle, there's no contraction band to seal anything.",
+  "spoken": "Unlike muscle, there's no contraction band to seal anything.",
+  "dur": 3.7546666666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 4,
+  "t": 21.4,
+  "text": "That is a muscle-fiber feature only.",
+  "spoken": "That is a muscle-fiber feature only.",
+  "dur": 2.283541666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 5,
+  "t": 0,
+  "text": "Grade I: stretched fibers.",
+  "spoken": "Grade one: stretched fibers.",
+  "dur": 1.7967083333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 5,
+  "t": 4,
+  "text": "Grade II: a partial tear.",
+  "spoken": "Grade two: a partial tear.",
+  "dur": 1.7075,
+  "sr": 24000
+ },
+ {
+  "shot": 5,
+  "t": 8,
+  "text": "Grade III: a complete tear, with joint laxity.",
+  "spoken": "Grade three: a complete tear, with joint laxity.",
+  "dur": 2.999625,
+  "sr": 24000
+ },
+ {
+  "shot": 6,
+  "t": 0,
+  "text": "The first five days look almost exactly like muscle:",
+  "spoken": "The first five days look almost exactly like muscle:",
+  "dur": 3.264,
+  "sr": 24000
+ },
+ {
+  "shot": 6,
+  "t": 5,
+  "text": "clot, growth factors, and a flood of neutrophils.",
+  "spoken": "clot, growth factors, and a flood of neutrophils.",
+  "dur": 2.9172083333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 6,
+  "t": 13,
+  "text": "The fibrin clot becomes the temporary scaffold that everything else will build on.",
+  "spoken": "The fibrin clot becomes the temporary scaffold that everything else will build on.",
+  "dur": 4.714666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 7,
+  "t": 0,
+  "text": "Clinical tie-in. Protect the scaffold.",
+  "spoken": "Clinical tie-in. Protect the scaffold.",
+  "dur": 2.5813333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 7,
+  "t": 0.7,
+  "text": "Protect, compress, elevate.",
+  "spoken": "Protect, compress, elevate.",
+  "dur": 1.641125,
+  "sr": 24000
+ },
+ {
+  "shot": 7,
+  "t": 3.3,
+  "text": "For a Grade III ankle sprain, a short period of rigid support, 10 days or less, is reasonable.",
+  "spoken": "For a Grade three ankle sprain, a short period of rigid support, 10 days or less, is reasonable.",
+  "dur": 6.696083333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 7,
+  "t": 5.9,
+  "text": "Avoid long casting.",
+  "spoken": "Avoid long casting.",
+  "dur": 1.4613333333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 8,
+  "t": 0,
+  "text": "Macrophages, T cells, VEGF, and new blood vessels peak between days 5 and 9,",
+  "spoken": "Macrophages, T cells, vej-eff, and new blood vessels peak between days 5 and 9,",
+  "dur": 6.058666666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 8,
+  "t": 7,
+  "text": "a few days later than in muscle.",
+  "spoken": "a few days later than in muscle.",
+  "dur": 1.9185,
+  "sr": 24000
+ },
+ {
+  "shot": 8,
+  "t": 12,
+  "text": "Most of this activity starts in the epiligament,",
+  "spoken": "Most of this activity starts in the epiligament,",
+  "dur": 2.7837083333333332,
+  "sr": 24000
+ },
+ {
+  "shot": 8,
+  "t": 17.4,
+  "text": "and then moves into the gap as granulation tissue.",
+  "spoken": "and then moves into the gap as granulation tissue.",
+  "dur": 3.136,
+  "sr": 24000
+ },
+ {
+  "shot": 9,
+  "t": 0,
+  "text": "Clinical tie-in. Same handoff, later.",
+  "spoken": "Clinical tie-in. Same handoff, later.",
+  "dur": 2.6327083333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 9,
+  "t": 0.7,
+  "text": "Same M1 \u2192 M2 handoff as in muscle.",
+  "spoken": "Same M one to M two handoff as in muscle.",
+  "dur": 2.76325,
+  "sr": 24000
+ },
+ {
+  "shot": 9,
+  "t": 3.3,
+  "text": "The same NSAID caution applies (see Scene 9).",
+  "spoken": "The same N-sayd caution applies, see Scene 9,.",
+  "dur": 3.239333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 9,
+  "t": 5.9,
+  "text": "Ligament-specific human data are limited.",
+  "spoken": "Ligament-specific human data are limited.",
+  "dur": 2.7074166666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 10,
+  "t": 0,
+  "text": "Type III collagen gene activity peaks around day 7,",
+  "spoken": "Type three collagen gene activity peaks around day 7,",
+  "dur": 3.7333333333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 10,
+  "t": 5,
+  "text": "and continues for at least four weeks, mostly in the new scar.",
+  "spoken": "and continues for at least four weeks, mostly in the new scar.",
+  "dur": 3.904,
+  "sr": 24000
+ },
+ {
+  "shot": 10,
+  "t": 11.6,
+  "text": "Type I collagen starts early too, peaking around days 7 to 14,",
+  "spoken": "Type one collagen starts early too, peaking around days 7 to 14,",
+  "dur": 4.757333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 10,
+  "t": 17,
+  "text": "both in the scar and at the old ends.",
+  "spoken": "both in the scar and at the old ends.",
+  "dur": 2.3034583333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 10,
+  "t": 22.4,
+  "text": "From about day 9, cell death takes over as the overcrowded site thins itself out.",
+  "spoken": "From about day 9, cell death takes over as the overcrowded site thins itself out.",
+  "dur": 5.226666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 11,
+  "t": 0,
+  "text": "In muscle, new fibers push down basement-membrane tunnels.",
+  "spoken": "In muscle, new fibers push down basement-membrane tunnels.",
+  "dur": 3.5127916666666668,
+  "sr": 24000
+ },
+ {
+  "shot": 11,
+  "t": 5,
+  "text": "In ligament, only collagen threads fill the gap.",
+  "spoken": "In ligament, only collagen threads fill the gap.",
+  "dur": 2.9385,
+  "sr": 24000
+ },
+ {
+  "shot": 12,
+  "t": 0,
+  "text": "Clinical tie-in. The weakest window.",
+  "spoken": "Clinical tie-in. The weakest window.",
+  "dur": 2.527083333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 12,
+  "t": 0.7,
+  "text": "This is the weakest window.",
+  "spoken": "This is the weakest window.",
+  "dur": 1.60925,
+  "sr": 24000
+ },
+ {
+  "shot": 12,
+  "t": 3.3,
+  "text": "Functional treatment, meaning early weight bearing with a brace or tape plus balance and neuromuscular exercise, beats immobilization for return to sport, swelling, and satisfaction in ankle sprains.",
+  "spoken": "Functional treatment, meaning early weight bearing with a brace or tape plus balance and neuromuscular exercise, beats immobilization for return to sport, swelling, and satisfaction in ankle sprains.",
+  "dur": 13.226666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 12,
+  "t": 5.9,
+  "text": "Loading tells the fibroblasts which direction to lay collagen.",
+  "spoken": "Loading tells the fibroblasts which direction to lay collagen.",
+  "dur": 3.904,
+  "sr": 24000
+ },
+ {
+  "shot": 13,
+  "t": 0,
+  "text": "For months, fibroblasts keep making collagen",
+  "spoken": "For months, fibroblasts keep making collagen",
+  "dur": 2.816,
+  "sr": 24000
+ },
+ {
+  "shot": 13,
+  "t": 5,
+  "text": "and slowly line it up along the lines of load.",
+  "spoken": "and slowly line it up along the lines of load.",
+  "dur": 2.9,
+  "sr": 24000
+ },
+ {
+  "shot": 13,
+  "t": 11,
+  "text": "Myofibroblasts pull the scar together.",
+  "spoken": "Myofibroblasts pull the scar together.",
+  "dur": 2.2933333333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 13,
+  "t": 16.4,
+  "text": "But athletes often return to play long before this scar has matured.",
+  "spoken": "But athletes often return to play long before this scar has matured.",
+  "dur": 3.8826666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 14,
+  "t": 0,
+  "text": "Ankle sprain return to sport is typically about one week for Grade I, two weeks for Grade II, and four weeks for Grade III.",
+  "spoken": "Ankle sprain return to sport is typically about one week for Grade one, two weeks for Grade two, and four weeks for Grade three.",
+  "dur": 8.149333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 14,
+  "t": 9,
+  "text": "The scar is still maturing the whole time. That mismatch is why the next phase of rehab matters.",
+  "spoken": "The scar is still maturing the whole time. That mismatch is why the next phase of rehab matters.",
+  "dur": 6.08,
+  "sr": 24000
+ },
+ {
+  "shot": 15,
+  "t": 0,
+  "text": "Cross-linking and alignment continue for 6 to 12 months,",
+  "spoken": "Cross-linking and alignment continue for 6 to 12 months,",
+  "dur": 3.584,
+  "sr": 24000
+ },
+ {
+  "shot": 15,
+  "t": 6,
+  "text": "and some remodeling goes on for years.",
+  "spoken": "and some remodeling goes on for years.",
+  "dur": 2.366875,
+  "sr": 24000
+ },
+ {
+  "shot": 16,
+  "t": 0,
+  "text": "The final tissue is scar: ligament-like, but with more type III collagen, thinner and less organized fibrils, and lower strength.",
+  "spoken": "The final tissue is scar: ligament-like, but with more type three collagen, thinner and less organized fibrils, and lower strength.",
+  "dur": 8.256,
+  "sr": 24000
+ },
+ {
+  "shot": 16,
+  "t": 9,
+  "text": "In closely related tendon research, repaired tissue reaches up to 30% lower tensile strength.",
+  "spoken": "In closely related tendon research, repaired tissue reaches up to 30 percent lower tensile strength.",
+  "dur": 6.784,
+  "sr": 24000
+ },
+ {
+  "shot": 16,
+  "t": 15.4,
+  "text": "The scar may also heal slightly long, and the joint's position sensors are disrupted.",
+  "spoken": "The scar may also heal slightly long, and the joint's position sensors are disrupted.",
+  "dur": 5.226666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 17,
+  "t": 0,
+  "text": "Clinical tie-in. Why sprains come back.",
+  "spoken": "Clinical tie-in. Why sprains come back.",
+  "dur": 2.726958333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 17,
+  "t": 0.7,
+  "text": "This explains recurrent sprains and chronic ankle instability.",
+  "spoken": "This explains recurrent sprains and chronic ankle instability.",
+  "dur": 3.925333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 17,
+  "t": 3.3,
+  "text": "Balance and proprioceptive training reduces re-injury over 7\u201312 months.",
+  "spoken": "Balance and proprioceptive training reduces re-injury over 7 to 12 months.",
+  "dur": 5.226666666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 18,
+  "t": 0,
+  "text": "The MCL heals well on its own.",
+  "spoken": "The M C L heals well on its own.",
+  "dur": 2.111291666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 18,
+  "t": 3.6,
+  "text": "The ACL almost never does.",
+  "spoken": "The A C L almost never does.",
+  "dur": 2.0145416666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 18,
+  "t": 8,
+  "text": "It floats in synovial fluid, so a stable clot can't form between the ends.",
+  "spoken": "It floats in synovial fluid, so a stable clot can't form between the ends.",
+  "dur": 4.949333333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 18,
+  "t": 16.4,
+  "text": "The unstable knee also keeps shifting, which works against healing.",
+  "spoken": "The unstable knee also keeps shifting, which works against healing.",
+  "dur": 4.045166666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 18,
+  "t": 23.4,
+  "text": "ACL cells and the ACL's epiligament also behave differently from the MCL's.",
+  "spoken": "A C L cells and the A C L's epiligament also behave differently from the M C L's.",
+  "dur": 6.165333333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 19,
+  "t": 0,
+  "text": "Bridge-enhanced ACL repair places a scaffold soaked in the patient's own blood into the gap, giving the clot something to hold onto.",
+  "spoken": "Bridge-enhanced A C L repair places a scaffold soaked in the patient's own blood into the gap, giving the clot something to hold onto.",
+  "dur": 8.448,
+  "sr": 24000
+ },
+ {
+  "shot": 20,
+  "t": 0,
+  "text": "Clinical tie-in. ACL: what this means.",
+  "spoken": "Clinical tie-in. A C L: what this means.",
+  "dur": 2.959625,
+  "sr": 24000
+ },
+ {
+  "shot": 20,
+  "t": 0.7,
+  "text": "Reconstruction remains standard.",
+  "spoken": "Reconstruction remains standard.",
+  "dur": 2.004541666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 20,
+  "t": 3.3,
+  "text": "Bridge-enhanced ACL repair (BEAR) places a scaffold soaked in the patient's own blood into the gap to give the clot something to hold onto.",
+  "spoken": "Bridge-enhanced A C L repair, or bear, places a scaffold soaked in the patient's own blood into the gap to give the clot something to hold onto.",
+  "dur": 9.544833333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 20,
+  "t": 5.9,
+  "text": "It was non-inferior to autograft reconstruction at 2 years in a randomized trial, although re-tear risk may be higher.",
+  "spoken": "It was non-inferior to autograft reconstruction at 2 years in a randomized trial, although re-tear risk may be higher.",
+  "dur": 7.573333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 21,
+  "t": 0,
+  "text": "Here is where each treatment acts on the healing timeline.",
+  "spoken": "Here is where each treatment acts on the healing timeline.",
+  "dur": 3.049625,
+  "sr": 24000
+ },
+ {
+  "shot": 21,
+  "t": 2,
+  "text": "Brief protection, days 0 to 10 for Grade III: protect the clot so the scaffold can form.",
+  "spoken": "Brief protection, days 0 to 10 for Grade three: protect the clot so the scaffold can form.",
+  "dur": 6.414125,
+  "sr": 24000
+ },
+ {
+  "shot": 21,
+  "t": 9,
+  "text": "Early protected loading: load is the signal that lines up the collagen.",
+  "spoken": "Early protected loading: load is the signal that lines up the collagen.",
+  "dur": 4.544,
+  "sr": 24000
+ },
+ {
+  "shot": 21,
+  "t": 16,
+  "text": "Balance and proprioception training: retrain the joint's GPS.",
+  "spoken": "Balance and proprioception training: retrain the joint's GPS.",
+  "dur": 4.279958333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 21,
+  "t": 23,
+  "text": "NSAIDs: short use for pain is common; long courses may blunt repair signaling. Ligament-specific human data are limited.",
+  "spoken": "N-sayds: short use for pain is common; long courses may blunt repair signaling. Ligament-specific human data are limited.",
+  "dur": 8.768,
+  "sr": 24000
+ },
+ {
+  "shot": 21,
+  "t": 30,
+  "text": "Acetaminophen: pain relief with less effect on local repair signals.",
+  "spoken": "Acetaminophen: pain relief with less effect on local repair signals.",
+  "dur": 4.8213333333333335,
+  "sr": 24000
+ },
+ {
+  "shot": 21,
+  "t": 37,
+  "text": "Shockwave and PRP: growth-factor and vessel signaling, with animal and limited human data.",
+  "spoken": "Shockwave and P R P: growth-factor and vessel signaling, with animal and limited human data.",
+  "dur": 6.464,
+  "sr": 24000
+ },
+ {
+  "shot": 21,
+  "t": 44,
+  "text": "Manual therapy and movement around the epiligament and fascia may help gliding and stiffness in the subacute and remodeling phases. Lasting structural effects are unproven.",
+  "spoken": "Manual therapy and movement around the epiligament and fascia may help gliding and stiffness in the subacute and remodeling phases. Lasting structural effects are unproven.",
+  "dur": 11.302791666666666,
+  "sr": 24000
+ },
+ {
+  "shot": 22,
+  "t": 0,
+  "text": "Same blueprint, different builders.",
+  "spoken": "Same blueprint, different builders.",
+  "dur": 1.909625,
+  "sr": 24000
+ },
+ {
+  "shot": 22,
+  "t": 4.5,
+  "text": "Muscle rebuilds itself and leaves a thin seam.",
+  "spoken": "Muscle rebuilds itself and leaves a thin seam.",
+  "dur": 2.900916666666667,
+  "sr": 24000
+ },
+ {
+  "shot": 22,
+  "t": 10,
+  "text": "Ligament fills the gap with a patch that hardens for a year.",
+  "spoken": "Ligament fills the gap with a patch that hardens for a year.",
+  "dur": 3.403875,
+  "sr": 24000
+ },
+ {
+  "shot": 23,
+  "t": 0,
+  "text": "Side by side: how each tissue heals, who rebuilds it, and what rehab has to focus on.",
+  "spoken": "Side by side: how each tissue heals, who rebuilds it, and what rehab has to focus on.",
+  "dur": 5.710708333333334,
+  "sr": 24000
+ },
+ {
+  "shot": 23,
+  "t": 18,
+  "text": "Rehab has to respect that timeline: the athlete feels ready long before the tissue is.",
+  "spoken": "Rehab has to respect that timeline: the athlete feels ready long before the tissue is.",
+  "dur": 5.333333333333333,
+  "sr": 24000
+ },
+ {
+  "shot": 24,
+  "t": 0.3,
+  "text": "Muscle regrows. Ligament patches. Feeling better isn't the same as being healed.",
+  "spoken": "Muscle regrows. Ligament patches. Feeling better isn't the same as being healed.",
+  "dur": 5.141333333333334,
+  "sr": 24000
+ }
+]
